@@ -1,0 +1,205 @@
+{
+    "basicknowledges": {
+        "history": "Arte marcial que surgiu na Coréia e usa os pés e as mãos como forma de ataque e defesa. Tem por objetivo o desenvolvimento físico e mental de seus praticantes. Busca aprimorar o caráter por meio da disciplina, da perseverança e do respeito. Além de arte marcial o Tae kwon-do é também uma modalidade de esporte olímpico com várias categorias, tanto no masculino como no feminino. A entidade responsável pelo regramento do Tae kwon-do em todo o Brasil é a Confederação Brasileira de Tae kwon-do, sediada na cidade do Rio de Janeiro, e a responsável pela promoção e organização de campeonatos oficiais no Estado é a Federação de Tae kwon-do do Estado do Rio de Janeiro, sendo que todos os professores e mestres devem ser registrados em ambas as entidades. O que é Kukiwon? É a sede mundial do Tae kwon-do, reconhecida pelo governo coreano. Quem criou o Tae kwon-do atual? Ex Genera coreano Choi Hong Hi. Quem trouxe o Tae kwon-do para o Brasil? Oficialmente: Grão mestre Sang Min Cho. (Extra oficial GM.Jung do Lim na Bahia Teria introduzido o TKD no Brasil.)",
+        "principles": {
+            "Cortesia": "Combinação de modéstia, delicadeza e humanismo",
+            "Integridade": "Senso de justiça e responsabilidade",
+            "Perseverança": "Força de vontade. É NÃO DESISTIR DE UM OBJETIVO",
+            "Auto Controle": "Disciplina aliada à paciência",
+            "Espirito Indomável": "coragem e decisão em todas as circunstâncias"
+        },
+        "oaths": [
+            "Observar as regras do tae kwon-do",
+            "Respeitar o instrutor e meus superiores",
+            "Nunca fazer mau uso do tae kwon-do",
+            "Construir um mundo mais pacífico",
+            "Ser campeão da liberdade e justiça"
+        ],
+        "tratments": {
+            "Grão mestre": "kwan-jam-nim (7.º ao 9.º DAN)",
+            "Mestre": "sa-bom-nim (4.º ao 6.º DAN)",
+            "Professores": "kio-sa-nim (1.º ao 3.º DAN)"
+        },
+        "dojangEtiquette": "São realizadas ao iniciar-se a aula: - saudação às bandeiras (kuki e terraio, kian-lhe)– se faz em posição de sentido levando a mão direita ao peito esquerdo e o olhar para as bandeiras brasileira e coreana. - aos instrutores – se faz inclinando o corpo na posição de sentido. O mestre e professores inclinam-se pouco menos de 45º, e os menos graduados mais de 45º. No Tae kwon-do, como em toda arte marcial oriental, muita atenção é dada à educação, ao comportamento e, principalmente, ao RESPEITO. Daí a importância que tem o modo de cumprimentar colegas e professores. O comportamento do praticante deve ser sempre respeitoso, devendo essa atitude ser estendida além da relação com os colegas e professores, sendo usada em sua vida de um modo geral, inclusive em relação aos objetos e dependências do local onde as aulas são realizadas.",
+        "commands": [
+            "Tchirgui",
+            "Andja",
+            "Tchariot",
+            "Kian-lhe",
+            "Murup-kuro",
+            "Jumbi",
+            "Kuman",
+            "Shio",
+            "Paro",
+            "Shi-djak",
+            "Retchio",
+            "Tiro tora",
+            "Kuki e terraio",
+            "Bal ba cuo",
+            "Ilo so",
+            "Bande",
+            "Baro"
+        ],
+        "numbers": [
+            "Hana",
+            "Tulh",
+            "Set",
+            "Net",
+            "Tasat",
+            "o-sat",
+            "l-gob",
+            "Io-dol",
+            "Ah-hob",
+            "Iol",
+            "Sumul",
+            "So run",
+            "Ma Rhum",
+            "Shi Rhum",
+            "Ie Sum",
+            "Irrum",
+            "Io Dun"
+        ],
+        "bodyParts": [
+            "Jumok",
+            "Dung jumok",
+            "Me jumok",
+            "Sonnal",
+            "Dung sonnal",
+            "Son dung",
+            "Pion sonkut",
+            "Goui sonkut",
+            "Ran sonkut",
+            "Batanson",
+            "Aguison",
+            "Palkub",
+            "Palmok",
+            "Ap tchuk",
+            "Bal kut",
+            "Bal dung",
+            "Bal nal",
+            "Bal nal dung",
+            "Bal ba dak",
+            "Tui tchuk",
+            "Tuit kumtchi",
+            "Murup",
+            "Jogany"
+        ],
+        "definitions": [
+            "DO BOK",
+            "TI",
+            "DO-DJAN",
+            "SAGUI",
+            "KI-RAB",
+            "KIBON DONJAK",
+            "MAKI",
+            "KUM KIOK",
+            "BAL KI SULL",
+            "NATCHO KIORUGUI",
+            "TAEKUK / POOM-SE"
+        ]
+    },
+    "belts": {
+        "white": {
+            "gub": "10",
+            "meaning": {
+                "A pureza e a inocência": "Semente • Representa o início do aprendizado do Taekwon-do, onde o aluno que se encontra desprovido do conhecimento terá o primeiro contato com a arte e com seus princípios básicos, tais como, disciplina, respeito, cortesia, humildade, perseverança e autocontrole."
+            },
+            "beltContent": {
+                "form": "",
+                "dirugui": [],
+                "maki": [],
+                "sagui": [],
+                "tchagui": []
+            },
+            "stripGub": "9",
+            "stripContent": {
+                "form": ""
+            }
+        },
+        "yellow": {
+            "gub": "8",
+            "meaning": {
+                "A riqueza": "A terra • Representa o início da adaptação do aluno no Taekwon-do, é simbolizado pela terra, onde a planta brota e finca sua raiz, é o começo de seu desenvolvimento técnico e muitos são tático, assim como de uma gama de princípios que irão ser adquiridos."
+            },
+            "beltContent": {
+                "form": "",
+                "dirugui": [],
+                "maki": [],
+                "sagui": [],
+                "tchagui": []
+            },
+            "stripGub": "7",
+            "stripContent": {
+                "form": ""
+            }
+        },
+        "green": {
+            "gub": "6",
+            "meaning": {
+                "O crescimento": "A planta • Representa o crescimento físico, mental e espiritual, é o início da destreza que começa a surgir no aluno, onde além do aprimoramento de todos seus conhecimentos, é fundamental que o aluno esteja ciente do espírito do Taekwon-do. É uma etapa de amplo crescimento de seu conhecimento."
+            },
+            "beltContent": {
+                "form": "",
+                "dirugui": [],
+                "maki": [],
+                "sagui": [],
+                "tchagui": []
+            },
+            "stripGub": "5",
+            "stripContent": {
+                "form": ""
+            }
+        },
+        "blue": {
+            "gub": "4",
+            "meaning": {
+                "A liberdade": "O céu • Simbolizada pelo céu, para onde a planta se dirige; a liberdade de utilizar, com raciocínio e criatividade tudo o que foi aprendido. Representa o amadurecimento do aluno."
+            },
+            "beltContent": {
+                "form": "",
+                "dirugui": [],
+                "maki": [],
+                "sagui": [],
+                "tchagui": []
+            },
+            "stripGub": "3",
+            "stripContent": {
+                "form": ""
+            }
+        },
+        "red": {
+            "gub": "2",
+            "meaning": {
+                "Alerta": "O sol • Assim como o sol é responsável pela vida no universo, nesta fase o aluno torna-se responsável por todos em sua academia. Seus conhecimentos adquiridos e aperfeiçoados representam uma parte da própria academia. Portanto é uma fase de alerta sobre seus atos e comportamentos, o aluno tem que ter a consciência de suas técnicas e do poder que elas têm, e por isso, é fundamental que este saiba por que, como, quando e para que usá-las, tendo em vista sua grande responsabilidade."
+            },
+            "beltContent": {
+                "form": "",
+                "dirugui": [],
+                "maki": [],
+                "sagui": [],
+                "tchagui": []
+            },
+            "stripGub": "1",
+            "stripContent": {
+                "form": ""
+            }
+        },
+        "black": {
+            "gub": "-1",
+            "meaning": {
+                "Sabedoria e conhecimento": "O universo • É o oposto ao branco, o alcance da maturidade e do conhecimento, é o crescimento intelectual e espiritual do aluno, é a consciência de que o Taekwondo muito mais do que uma simples luta, se confunde com a sua própria vida através de seus princípios e atitudes."
+            },
+            "beltContent": {
+                "form": "",
+                "dirugui": [],
+                "maki": [],
+                "sagui": [],
+                "tchagui": []
+            },
+            "stripGub": "-2",
+            "stripContent": {
+                "form": ""
+            }
+        }
+    }
+}

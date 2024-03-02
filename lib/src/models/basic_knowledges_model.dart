@@ -2,9 +2,10 @@
 import 'dart:convert';
 
 class BasicKnowledges {
-  final List<String> principles;
-  final List<String> vow;
-  final List<String> tratments;
+  final String history;
+  final Map<String, String> principles;
+  final List<String> oaths;
+  final Map<String, String> tratments;
   final String dojangEtiquette;
   final List<String> commands;
   final List<String> numbers;
@@ -12,8 +13,9 @@ class BasicKnowledges {
   final List<String> definitions;
 
   BasicKnowledges({
+    required this.history,
     required this.principles,
-    required this.vow,
+    required this.oaths,
     required this.tratments,
     required this.dojangEtiquette,
     required this.commands,
@@ -24,8 +26,9 @@ class BasicKnowledges {
 
   Map<String, dynamic> toMap() {
     return <String, dynamic>{
+      'history': history,
       'principles': principles,
-      'vow': vow,
+      'vow': oaths,
       'tratments': tratments,
       'dojangEtiquette': dojangEtiquette,
       'commands': commands,
@@ -37,11 +40,14 @@ class BasicKnowledges {
 
   factory BasicKnowledges.fromMap(Map<String, dynamic> map) {
     return BasicKnowledges(
-      principles: List<String>.from((map['principles'] as List<String>)),
-      vow: List<String>.from(
+      history: map['history'] as String,
+      principles:
+          Map<String, String>.from((map['principles'] as Map<String, String>)),
+      oaths: List<String>.from(
         (map['vow'] as List<String>),
       ),
-      tratments: List<String>.from((map['tratments'] as List<String>)),
+      tratments:
+          Map<String, String>.from((map['tratments'] as Map<String, String>)),
       dojangEtiquette: map['dojangEtiquette'] as String,
       commands: List<String>.from((map['commands'] as List<String>)),
       numbers: List<String>.from((map['numbers'] as List<String>)),
@@ -54,7 +60,4 @@ class BasicKnowledges {
 
   factory BasicKnowledges.fromJson(String source) =>
       BasicKnowledges.fromMap(json.decode(source) as Map<String, dynamic>);
-
-  
-  
 }

@@ -1,0 +1,378 @@
+{
+    "Tae kwon-do": {
+        "meaning": "Caminho dos pés e das mãos através da mente",
+        "description": null
+    },
+    "Kwan jam nim": {
+        "meaning": "Grão mestre",
+        "description": "7º ao 9º DAN"
+    },
+    "Sa bom nim": {
+        "meaning": "Mestre",
+        "description": "4º ao 6º DAN"
+    },
+    "Kio sa nim": {
+        "meaning": "Professor",
+        "description": "1º ao 3º DAN"
+    },
+    "Timio": {
+        "meaning": "Salto",
+        "description": null
+    },
+    "Tora": {
+        "meaning": "Giro",
+        "description": null
+    },
+    "Tchirgui": {
+        "meaning": "Socando",
+        "description": null
+    },
+    "Andja": {
+        "meaning": "sentar",
+        "description": null
+    },
+    "Tchariot": {
+        "meaning": "Sentido",
+        "description": null
+    },
+    "Kian-lhe": {
+        "meaning": "Saudação",
+        "description": null
+    },
+    "Murup-kuro": {
+        "meaning": "Ajoelhar",
+        "description": null
+    },
+    "Jumbi": {
+        "meaning": "Preparar",
+        "description": null
+    },
+    "Kuman": {
+        "meaning": "Cessar",
+        "description": null
+    },
+    "Shio": {
+        "meaning": "Descansar",
+        "description": null
+    },
+    "Paro": {
+        "meaning": "retornar a posição de sentido",
+        "description": null
+    },
+    "Shi-djak": {
+        "meaning": "Começar",
+        "description": null
+    },
+    "Retchio": {
+        "meaning": "À vontade",
+        "description": null
+    },
+    "Tiro tora": {
+        "meaning": "Dar meia volta",
+        "description": null
+    },
+    "Kuki e terraio, kian-lhe": {
+        "meaning": "Saudação às bandeira",
+        "description": null
+    },
+    "Bal ba cuo": {
+        "meaning": "Trocar de pé",
+        "description": null
+    },
+    "Ilo so": {
+        "meaning": "Levantar",
+        "description": null
+    },
+    "Bande": {
+        "meaning": "Braço de ataque ou defesa é o mesmo da perna que esta a frente.",
+        "description": null
+    },
+    "Baro": {
+        "meaning": "Braço de ataque ou defesa é o oposto da perna que esta a frente.",
+        "description": null
+    },
+    "Redian": {
+        "meaning": "Após o giro, chutar com a perna que antes estava na frente.",
+        "description": null
+    },
+    "Ap bal": {
+        "meaning": "Perna da frente",
+        "description": null
+    },
+    "Tit bal": {
+        "meaning": "Perna de trás",
+        "description": null
+    },
+    "Kyopa": {
+        "meaning": "Quebramento",
+        "description": ""
+    },
+    "Hana": {
+        "meaning": "Um",
+        "description": null
+    },
+    "Tulh": {
+        "meaning": "Dois",
+        "description": null
+    },
+    "Set": {
+        "meaning": "Três",
+        "description": null
+    },
+    "Net": {
+        "meaning": "Quatro",
+        "description": null
+    },
+    "Tasat": {
+        "meaning": "Cinco",
+        "description": null
+    },
+    "o-sat": {
+        "meaning": "Seis",
+        "description": null
+    },
+    "l-gob": {
+        "meaning": "Sete",
+        "description": null
+    },
+    "Io-dol": {
+        "meaning": "Oito",
+        "description": null
+    },
+    "Ah-hob": {
+        "meaning": "Nove",
+        "description": null
+    },
+    "Iol": {
+        "meaning": "Dez",
+        "description": null
+    },
+    "Sumul": {
+        "meaning": "Vinte",
+        "description": null
+    },
+    "So run": {
+        "meaning": "Trinta",
+        "description": null
+    },
+    "Ma Rhum": {
+        "meaning": "Quarenta",
+        "description": null
+    },
+    "Shi Rhum": {
+        "meaning": "Cinquenta",
+        "description": null
+    },
+    "Ie Sum": {
+        "meaning": "Sessenta",
+        "description": null
+    },
+    "Irrum": {
+        "meaning": "Setenta",
+        "description": null
+    },
+    "Io Dun": {
+        "meaning": "Oitenta",
+        "description": null
+    },
+    "Jumok": {
+        "meaning": "Punho fechado",
+        "description": null
+    },
+    "Pomok": {
+        "meaning": "Punho cerrado",
+        "description": null
+    },
+    "Sonnal": {
+        "meaning": "Faca da mão",
+        "description": null
+    },
+    "Dung sonnal": {
+        "meaning": "Faca interna da mão aberta",
+        "description": null
+    },
+    "Son dung": {
+        "meaning": "Toda área das costas da mão aberta",
+        "description": null
+    },
+    "Pion sonkut": {
+        "meaning": "Ponta dos dedos usados para golpe de penetração",
+        "description": null
+    },
+    "Goui sonkut": {
+        "meaning": "Ponta do dedo indicador e do médio",
+        "description": null
+    },
+    "Ran sonkut": {
+        "meaning": "Ponta do dedo indicador",
+        "description": null
+    },
+    "Batanson": {
+        "meaning": "Palma da mão",
+        "description": null
+    },
+    "Aguison": {
+        "meaning": "Bordo interno da faca da mão em forma de arco",
+        "description": null
+    },
+    "Palkub": {
+        "meaning": "Cotovelo",
+        "description": null
+    },
+    "Palmok": {
+        "meaning": "Antebraço",
+        "description": null
+    },
+    "Ap tchuk": {
+        "meaning": "Ponta do pé com os dedos levantados",
+        "description": null
+    },
+    "Bal kut": {
+        "meaning": "Ponta dos dedos do pé",
+        "description": null
+    },
+    "Bal dung": {
+        "meaning": "Peito do pé",
+        "description": null
+    },
+    "Bal nal": {
+        "meaning": "Faca externa do pé",
+        "description": null
+    },
+    "Bal nal dung": {
+        "meaning": "Faca interna do pé",
+        "description": null
+    },
+    "Bal ba dak": {
+        "meaning": "Sola do pé",
+        "description": null
+    },
+    "Tui tchuk": {
+        "meaning": "Parte inferior do calcanhar na sola do pé",
+        "description": null
+    },
+    "Tuit kumtchi": {
+        "meaning": "Parte de trás do calcanhar próximo ao tendão de aquiles",
+        "description": null
+    },
+    "Murup": {
+        "meaning": "Joelho",
+        "description": null
+    },
+    "Jogany": {
+        "meaning": "Canela",
+        "description": null
+    },
+    "Olgul": {
+        "meaning": "Parte do corpo acima da cravícula",
+        "description": null
+    },
+    "Monton": {
+        "meaning": "Parte do corpo entre a cravícula e a cintura",
+        "description": null
+    },
+    "Are": {
+        "meaning": "Parte do corpo abaixo da faixa.",
+        "description": null
+    },
+    "DO BOK": {
+        "meaning": "Uniforme",
+        "description": null
+    },
+    "TI": {
+        "meaning": "Faixa",
+        "description": null
+    },
+    "DO-DJAN": {
+        "meaning": "Sala de treino",
+        "description": null
+    },
+    "SAGUI": {
+        "meaning": "Base",
+        "description": "São as posições fundamentais do tae kwon-do. Servem para disciplinar o corpo e treinar movimentações precisas de ataque e defesa."
+    },
+    "KI-RAB": {
+        "meaning": "Grito",
+        "description": "Deve ser dado com concentração de energia que vem da força localizada no ventre."
+    },
+    "KIBON DONJAK": {
+        "meaning": "Técnica de treino",
+        "description": "Visa manter a forma, o equilíbrio e as posições corretas de ataque e defesa."
+    },
+    "MAKI": {
+        "meaning": "Defesa",
+        "description": "Usam-se os braços, as mãos, as pernas, os cotovelos, os pés e esquivas."
+    },
+    "KUM KIOK": {
+        "meaning": "Ataque de mão",
+        "description": "São usados mãos, braços e cotovelos."
+    },
+    "BAL KI SULL": {
+        "meaning": "Técnicas de pés",
+        "description": "São usados pés, pernas, joelhos. Usa-se parado andando ou saltando."
+    },
+    "NATCHO KIORUGUI": {
+        "meaning": "Luta combinada",
+        "description": ""
+    },
+    "TAEKUK / POOM-SE": {
+        "meaning": "Sequência de movimentos",
+        "description": "São movimentos contínuos de ataque e defesa contra um adversário imaginário. Os objetivos são: concentração, posições corretas, reflexos, equilíbrio e treinamento de coordenação. São a base do Tae kwon-do."
+    },
+    "Saju": {
+        "meaning": "Quatro direções",
+        "description": null
+    },
+    "Tae": {
+        "meaning": "Início",
+        "description": null
+    },
+    "Guk": {
+        "meaning": "Infinito",
+        "description": null
+    },
+    "Parl Gue": {
+        "meaning": "São os oitos trigramas",
+        "description": "Céu, Satisfação, Fogo (sol), Trovão, Vento, Água, Montanha e Terra"
+    },
+    "Saju Ap Tchagui": {
+        "meaning": "Chutando nas quatro direções",
+        "description": null
+    },
+    "Saju Tchirgui": {
+        "meaning": "socando nas quatro direções",
+        "description": null
+    },
+    "Tae Guk Il Jang": {
+        "meaning": "Positivo e o negativo",
+        "description": "Como o \"keon\" simboliza o começo da criação de todas as coisas no universo, recomendamos o Teguk il jang no treinamento de Taekwondo. Esse poomsae é caracterizado pela sua facilidade na pratica, que consiste na sua maior parte de fazer as ações básicas, como are-maki, montong maki, montong dirgui, e ap-tchagui."
+    },
+    "Tae Guk I Jang": {
+        "meaning": "Firmeza e a suavidade externa",
+        "description": "Uma introdução de olgul-maki é um novo desenvolvimento desse poomsae. As ações de aptchagui aparecem mais freqüentemente do que no Teguk Il Jang."
+    },
+    "Tae Guk Sam Jang": {
+        "meaning": "Quente e resplandecente",
+        "description": "Isso encoraja o aluno a abrigar um senso de justiça e ardor pra treinar. Uma realização bem sucedida desse poomsae dará ao aluno uma promoção a uma faixa verde com ponta azul. Novas ações como: han sonnal mok thigui e han sonnal iop maki. Esse poomsae é caracterizado pelas sucessivas defesas e ataques. É dada ênfase para os contra-ataques empregados contra o ataque do oponente. O aluno do 6º Gub pratica esse poomsae."
+    },
+    "Tae Guk Sa Jang": {
+        "meaning": "Grande poder do trovão e da dignidade",
+        "description": "Os novos movimentos são: sonnal montong maki, pyon son cut seo thirgui, jebi poom mok thigui, yop tchaqui, montong bacat maki e dung jumok olgul ap thigui. Em vários movimentos usamos a base duit kub caracterizando assim esse poomsae."
+    },
+    "Tae Guk Oh Jang": {
+        "meaning": "O vento",
+        "description": "Tanto uma força potente quanto a tranquilidade de acordo com sua força e fraqueza. Novos movimentos são: me jumok nerio tchigui, palkup dolio tchigui, iop tchamio iop dirugui e palkup pyo jok tchigui. Também é caracterizado pelas sucessivas defesas de montong maki e are maki."
+    },
+    "Tae Guk Yuk Jang": {
+        "meaning": "A água",
+        "description": "significando um continuo fluxo e suavidade. Novos movimentos são: han sonnal pitrô maki, olgul bacat maki, are retchiô maki e batang son montong maki. Deve-se ter cuidado para fazer com que o pé do chute termine no ponto certo apos o dolio-tchagui, a palma da mão do batang son montong maki, deve ficar na altura do peito, no han sonnal pitrô maki virar bem o tronco para o lado oposto da perna da frente, sem levantar o calcanhar de trás."
+    },
+    "Tae Guk Chil Jang": {
+        "meaning": "A montanha",
+        "description": "Ponderação e firmeza. Novos movimentos são: sonnal are maki, batang son gudurô montong maki, montong rethio maki, iop dirgui, murup tchigui, gauí maki, du jumok jetchio dirgui, otgorô are maki, ding jumok bacat tchigui e bo jumok. Uma conexão refinada de movimentos é importante para treinar esse poomsae."
+    },
+    "Tae Guk Pal Jang": {
+        "meaning": "A Terra",
+        "description": "A origem e a povoação e também o começo e o fim. Novos movimentos são: goduro montong maki, eu santul maki, dangyo tuk tchigui e goduro are maki."
+    }
+}

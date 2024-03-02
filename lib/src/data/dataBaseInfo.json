@@ -20,8 +20,61 @@
             "Mestre": "sa-bom-nim (4.º ao 6.º DAN)",
             "Professores": "kio-sa-nim (1.º ao 3.º DAN)"
         },
-        "dojangEtiquette": "São realizadas ao iniciar-se a aula: - saudação às bandeiras (kuki e terraio, kian-lhe)– se faz em posição de sentido levando a mão direita ao peito esquerdo e o olhar para as bandeiras brasileira e coreana. - aos instrutores – se faz inclinando o corpo na posição de sentido. O mestre e professores inclinam-se pouco menos de 45º, e os menos graduados mais de 45º. No Tae kwon-do, como em toda arte marcial oriental, muita atenção é dada à educação, ao comportamento e, principalmente, ao RESPEITO. Daí a importância que tem o modo de cumprimentar colegas e professores. O comportamento do praticante deve ser sempre respeitoso, devendo essa atitude ser estendida além da relação com os colegas e professores, sendo usada em sua vida de um modo geral, inclusive em relação aos objetos e dependências do local onde as aulas são realizadas.",
+        "dojangEtiquette": {
+            "etiquette": [
+                "Mantenha a sua higiene pessoal em dia, assim como as unhas dos pés e das mãos sempre limpas e curtas",
+                "Manter o dobok (uniforme) sempre limpo e bem passado",
+                "Cabe aos alunos ajudarem na limpeza e na conservação do Dojang e de toda a academia, como se estivessem cuidado de suas próprias casas",
+                "Não venha para aula se estiver doente, procure tratar-se antes",
+                "Ao aluno iniciante devera ser dado um prazo para a aquisição do Dobok, e o aluno deve esforçar se para honrar este prazo"
+            ],
+            "rules": [
+                "As conversas durante as aulas devem ser mínimas e restritas a um único tópico, Taekwondo",
+                "Os celulares devem estar sempre desligados, com exceção apenas aos alunos que trabalham na área da saúde, militares ou que esteja necessariamente com algum problema pessoal, devendo todos comunicar antecipadamente ao Instrutor/Mestre",
+                "Caso esteja esperando uma ligação urgente, deixe o telefone no vibra e comunique o mestre a respeito da situação",
+                "Saudar a bandeira e o local de treino sempre ao início e ao término das aulas",
+                "O aluno de Taekwondo deve se comportar da mesma forma dentro e fora do Dojang",
+                "Ao chegar à academia reverencie primeiramente os Mestres, e posteriormente os demais Professores, Instrutores e companheiros de treino, procurando sempre respeitar a hierarquia",
+                "Sempre respeite os ensinamentos originados pelo Mestre exatamente como foram transmitidos, sem questionar sobre suas formas e aplicações",
+                "O respeito pela forma com que o Instrutor/Mestre dirige suas aulas, é de suma importância ao aprendizado do praticante, não cabendo em nenhuma situação momentos de contestações",
+                "Nunca utilize gestos obscenos ou palavras de baixo calão (palavrões), na academia",
+                "Não trazer alimentos para consumir durante as aulas, principalmente balas, chicletes e salgadinhos",
+                "No início e término de cada aula de Taekwondo, deve ser feita reverencia. Formal ao Instrutor/Mestre, como forma de agradecimento aos Ensinamentos que lhe serão transmitidos. Sempre lembrando que os Calcanhares devem sempre estar juntos, e os olhos voltados para baixo Sempre que reverenciar Instrutor/Mestre, bem como a bandeira",
+                "Proibido o uso de cigarros, bebidas alcoólicas, ou qualquer outra droga ou vícios nas dependências da academia; (esporte é saúde, uso de drogas é aversão a filosofia do esporte.)",
+                "Não danifique os aparelhos de treino, os quais você mesmo vai utilizar",
+                "Não use drogas, bebidas alcoólicas, ou qualquer substância do gênero, antes, durante e após o treino",
+                "Troque de roupa somente no vestiário;",
+                "Não fique com brincadeiras durante o período de aulas;",
+                "Nunca exija ou peça ao Instrutor/Mestre que ele passe novas técnicas. Tenha paciência, pois ele sabe exatamente o momento certo para passá-las a você;",
+                "Não use as técnicas do Taekwondo para prejudicar outras pessoas, ou como uma maneira de aumentar o seu ego pessoal",
+                "Evite argumentar um erro ou deficiência técnica. Se o Instrutor/Mestre o corrigir, seja humilde e aceite a critica em silêncio. Ele está no Dojang para ajudá-lo;",
+                "Não falte com respeito para com seus Instrutor/Mestre, companheiros de treino e para com o Taekwondo",
+                "Respeite os outros e a si mesmo, para poder ser respeitado",
+                "Só se deve usar Dobok dentro do Dojang. Se por acaso usarmos o Dobok na rua só deverá estar visível as calças do Dobok e nao se deve exibir a faixa",
+                "Caso o mestre/instrutor não tenha chegado à hora do início do treino, será o aluno mais graduado a começar e orientar a aula até à chegada do mesmo"
+            ],
+            "doubts": [
+                "Em caso de dúvidas consulte sempre o Instrutor/Mestre, somente consulte o aluno mais graduado caso o mestre autorize",
+                "Caso o Mestre ou Instrutor não possa responder imediatamente ao questionamento, aguarde, pois o mais breve possível a duvida será sanada",
+                "Sempre que questionar a respeito de uma técnica seja educado e cortes mostrando respeito",
+                "Existe uma diferença entre questionar por duvida técnica e apontar defeitos de ineficiência da técnica, tome cuidado, demora-se uma vida para aprender Taekwondo, algumas técnicas envolvem questões que os olhos não podem ver"
+            ],
+            "whenArriving": [
+                "Chegar com antecedência ao horário das aulas, evitando chegar atrasado",
+                "Se chegar atrasado, reverencie a bandeira e o local de treino, posteriormente o Instrutor/Mestre, que lhe dirá o que fazer, nunca cumprimente os companheiros durante o horário de aula, para não provocar tumultos e prejudicar o andamento das aulas",
+                "Se precisar sair antes do término da aula, comunique antecipadamente o Instrutor/Mestre para ter a sua permissão"
+            ],
+            "security": [
+                "O praticante de Taekwondo deve estar sempre atento durante as aulas, para evitar riscos de acidentes desnecessários",
+                "Retire anéis, brincos, pulseiras, relógio, correntes e quaisquer outros objetos, que possam causar riscos de acidente, para você e para seus companheiros",
+                "Fique sempre atento ao posicionamento dos colegas para evitar choques com os colegas de treino",
+                "Siga as orientações do Mestre, elas são para a sua segurança",
+                "É dever do praticante de Taekwon-do arrumar todo o material colocado à sua disposição pelo mestre/instrutor durante o decorrer do treino ou que esteja à sua responsabilidade"
+            ]
+        },
         "commands": [
+            "Timio",
+            "Tora",
             "Tchirgui",
             "Andja",
             "Tchariot",
@@ -38,7 +91,11 @@
             "Bal ba cuo",
             "Ilo so",
             "Bande",
-            "Baro"
+            "Baro",
+            "Redian",
+            "Ap bal",
+            "Tit bal",
+            "Kyopa"
         ],
         "numbers": [
             "Hana",
@@ -82,7 +139,10 @@
             "Tui tchuk",
             "Tuit kumtchi",
             "Murup",
-            "Jogany"
+            "Jogany",
+            "Olgul",
+            "Monton",
+            "Are"
         ],
         "definitions": [
             "DO BOK",
@@ -105,15 +165,32 @@
                 "A pureza e a inocência": "Semente • Representa o início do aprendizado do Taekwon-do, onde o aluno que se encontra desprovido do conhecimento terá o primeiro contato com a arte e com seus princípios básicos, tais como, disciplina, respeito, cortesia, humildade, perseverança e autocontrole."
             },
             "beltContent": {
-                "form": "",
-                "dirugui": [],
-                "maki": [],
-                "sagui": [],
-                "tchagui": []
+                "form": "Saju Ap Tchagui",
+                "sagui": [
+                    "Moa sagui",
+                    "Narani sagui",
+                    "Jutchum sagui",
+                    "Ap kubi",
+                    "Ap sagui"
+                ],
+                "tchagui": [
+                    "Ap tchagui",
+                    "Ban dall tchagui",
+                    "Dolho tchagui",
+                    "Yop tchagui",
+                    "An tchagui",
+                    "Pakat tchagui",
+                    "Nerio tchagui",
+                    "Tchit tchagui",
+                    "Neryo tchagui",
+                    "Miryio tchagui"
+                ]
             },
             "stripGub": "9",
             "stripContent": {
-                "form": ""
+                "sagui": [],
+                "tchagui": [],
+                "form": "Saju Tchirgui"
             }
         },
         "yellow": {
@@ -122,15 +199,36 @@
                 "A riqueza": "A terra • Representa o início da adaptação do aluno no Taekwon-do, é simbolizado pela terra, onde a planta brota e finca sua raiz, é o começo de seu desenvolvimento técnico e muitos são tático, assim como de uma gama de princípios que irão ser adquiridos."
             },
             "beltContent": {
-                "form": "",
-                "dirugui": [],
-                "maki": [],
+                "form": "Tae Guk Il Jang",
                 "sagui": [],
-                "tchagui": []
+                "tchagui": [
+                    "Timio Ap tchagui",
+                    "Tora Ap tchagui",
+                    "Timio Ban dall tchagui",
+                    "Tora Ban dall tchagui",
+                    "Timio Dolho tchagui",
+                    "Tora Dolho tchagui",
+                    "Timio Yop tchagui",
+                    "Tora Yop tchagui",
+                    "Timio An tchagui",
+                    "Tora An tchagui",
+                    "Timio Pakat tchagui",
+                    "Tora Pakat tchagui",
+                    "Timio Nerio tchagui",
+                    "Tora Nerio tchagui",
+                    "Timio Tchit tchagui",
+                    "Tora Tchit tchagui",
+                    "Timio Neryo tchagui",
+                    "Tora Neryo tchagui",
+                    "Timio Miryio tchagui",
+                    "Furyo tchagui"
+                ]
             },
             "stripGub": "7",
             "stripContent": {
-                "form": ""
+                "sagui": [],
+                "tchagui": [],
+                "form": "Tae Guk I Jang"
             }
         },
         "green": {
@@ -139,15 +237,15 @@
                 "O crescimento": "A planta • Representa o crescimento físico, mental e espiritual, é o início da destreza que começa a surgir no aluno, onde além do aprimoramento de todos seus conhecimentos, é fundamental que o aluno esteja ciente do espírito do Taekwon-do. É uma etapa de amplo crescimento de seu conhecimento."
             },
             "beltContent": {
-                "form": "",
-                "dirugui": [],
-                "maki": [],
+                "form": "Tae Guk Sam Jang",
                 "sagui": [],
                 "tchagui": []
             },
             "stripGub": "5",
             "stripContent": {
-                "form": ""
+                "sagui": [],
+                "tchagui": [],
+                "form": "Tae Guk Sa Jang"
             }
         },
         "blue": {
@@ -156,15 +254,15 @@
                 "A liberdade": "O céu • Simbolizada pelo céu, para onde a planta se dirige; a liberdade de utilizar, com raciocínio e criatividade tudo o que foi aprendido. Representa o amadurecimento do aluno."
             },
             "beltContent": {
-                "form": "",
-                "dirugui": [],
-                "maki": [],
+                "form": "Tae Guk Oh Jang",
                 "sagui": [],
                 "tchagui": []
             },
             "stripGub": "3",
             "stripContent": {
-                "form": ""
+                "sagui": [],
+                "tchagui": [],
+                "form": "Tae Guk Yuk Jang"
             }
         },
         "red": {
@@ -173,32 +271,15 @@
                 "Alerta": "O sol • Assim como o sol é responsável pela vida no universo, nesta fase o aluno torna-se responsável por todos em sua academia. Seus conhecimentos adquiridos e aperfeiçoados representam uma parte da própria academia. Portanto é uma fase de alerta sobre seus atos e comportamentos, o aluno tem que ter a consciência de suas técnicas e do poder que elas têm, e por isso, é fundamental que este saiba por que, como, quando e para que usá-las, tendo em vista sua grande responsabilidade."
             },
             "beltContent": {
-                "form": "",
-                "dirugui": [],
-                "maki": [],
+                "form": "Tae Guk Chil Jang",
                 "sagui": [],
                 "tchagui": []
             },
             "stripGub": "1",
             "stripContent": {
-                "form": ""
-            }
-        },
-        "black": {
-            "gub": "-1",
-            "meaning": {
-                "Sabedoria e conhecimento": "O universo • É o oposto ao branco, o alcance da maturidade e do conhecimento, é o crescimento intelectual e espiritual do aluno, é a consciência de que o Taekwondo muito mais do que uma simples luta, se confunde com a sua própria vida através de seus princípios e atitudes."
-            },
-            "beltContent": {
-                "form": "",
-                "dirugui": [],
-                "maki": [],
                 "sagui": [],
-                "tchagui": []
-            },
-            "stripGub": "-2",
-            "stripContent": {
-                "form": ""
+                "tchagui": [],
+                "form": "Tae Guk Pal Jang"
             }
         }
     }

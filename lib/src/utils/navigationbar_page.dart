@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:taekwondo_jovem/src/pages/belts_page.dart';
 
+import 'package:taekwondo_jovem/src/pages/belts_page.dart';
 import 'package:taekwondo_jovem/src/pages/home_page.dart';
 import 'package:taekwondo_jovem/src/pages/second_page.dart';
 

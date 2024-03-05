@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'package:taekwondo_jovem/src/consts.dart';
+import 'package:taekwondo_jovem/src/controller/data/objects.dart';
 import 'package:taekwondo_jovem/src/utils/reusable_info_card.dart';
 
 class SecondPage extends StatelessWidget {
@@ -13,23 +15,27 @@ class SecondPage extends StatelessWidget {
       ),
       body: Container(
         decoration: kContainerBackgroundDecoration,
-        child: const Padding(
-          padding: EdgeInsets.all(20.0),
+        child: Padding(
+          padding: const EdgeInsets.all(20.0),
           child: Column(
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ReusableInfonCard(
+                onTap: () async {
+                  // readJson();
+                  Objects.beltCreator();
+                },
                 cardName: "Princípios",
                 title: "Princípios do Taekwondo",
                 cardIcon: Icons.sports_martial_arts_outlined,
               ),
-              ReusableInfonCard(
+              const ReusableInfonCard(
                 cardName: "Juramentos",
                 title: "Juramentos do Taekwondo",
                 cardIcon: Icons.sports_martial_arts_outlined,
               ),
-              ReusableInfonCard(
+              const ReusableInfonCard(
                 cardName: "Etiqueta no Dojang",
                 title: "Comportamento do praticante de Taekwondo",
                 cardIcon: Icons.sports_martial_arts_outlined,

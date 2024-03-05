@@ -1,6 +1,14 @@
 {
+    "yougTaekwondoProject": {
+        "History": "",
+        "ProjectName": "Equipe Taekwondo Jovem",
+        "Foundation date": "DD/MM/AAAA",
+        "Founder": "Jefferson Castro",
+        "Kwan-jam-nim": "Marcio Oliveira",
+        "Location": ""
+    },
     "basicknowledges": {
-        "history": "Arte marcial que surgiu na Coréia e usa os pés e as mãos como forma de ataque e defesa. Tem por objetivo o desenvolvimento físico e mental de seus praticantes. Busca aprimorar o caráter por meio da disciplina, da perseverança e do respeito. Além de arte marcial o Tae kwon-do é também uma modalidade de esporte olímpico com várias categorias, tanto no masculino como no feminino. A entidade responsável pelo regramento do Tae kwon-do em todo o Brasil é a Confederação Brasileira de Tae kwon-do, sediada na cidade do Rio de Janeiro, e a responsável pela promoção e organização de campeonatos oficiais no Estado é a Federação de Tae kwon-do do Estado do Rio de Janeiro, sendo que todos os professores e mestres devem ser registrados em ambas as entidades. O que é Kukiwon? É a sede mundial do Tae kwon-do, reconhecida pelo governo coreano. Quem criou o Tae kwon-do atual? Ex Genera coreano Choi Hong Hi. Quem trouxe o Tae kwon-do para o Brasil? Oficialmente: Grão mestre Sang Min Cho. (Extra oficial GM.Jung do Lim na Bahia Teria introduzido o TKD no Brasil.)",
+        "History": "Arte marcial que surgiu na Coréia e usa os pés e as mãos como forma de ataque e defesa. Tem por objetivo o desenvolvimento físico e mental de seus praticantes. Busca aprimorar o caráter por meio da disciplina, da perseverança e do respeito. Além de arte marcial o Tae kwon-do é também uma modalidade de esporte olímpico com várias categorias, tanto no masculino como no feminino. A entidade responsável pelo regramento do Tae kwon-do em todo o Brasil é a Confederação Brasileira de Tae kwon-do, sediada na cidade do Rio de Janeiro, e a responsável pela promoção e organização de campeonatos oficiais no Estado é a Federação de Tae kwon-do do Estado do Rio de Janeiro, sendo que todos os professores e mestres devem ser registrados em ambas as entidades. O que é Kukiwon? É a sede mundial do Tae kwon-do, reconhecida pelo governo coreano. Quem criou o Tae kwon-do atual? Ex Genera coreano Choi Hong Hi. Quem trouxe o Tae kwon-do para o Brasil? Oficialmente: Grão mestre Sang Min Cho. (Extra oficial GM.Jung do Lim na Bahia Teria introduzido o TKD no Brasil.)",
         "principles": {
             "Cortesia": "Combinação de modéstia, delicadeza e humanismo",
             "Integridade": "Senso de justiça e responsabilidade",
@@ -160,11 +168,15 @@
     },
     "belts": {
         "white": {
+            "color": "white",
             "gub": "10",
-            "meaning": {
-                "A pureza e a inocência": "Semente • Representa o início do aprendizado do Taekwon-do, onde o aluno que se encontra desprovido do conhecimento terá o primeiro contato com a arte e com seus princípios básicos, tais como, disciplina, respeito, cortesia, humildade, perseverança e autocontrole."
-            },
             "beltContent": {
+                "meaning": {
+                    "A pureza e a inocência": "Semente • Representa o início do aprendizado do Taekwon-do, onde o aluno que se encontra desprovido do conhecimento terá o primeiro contato com a arte e com seus princípios básicos, tais como, disciplina, respeito, cortesia, humildade, perseverança e autocontrole."
+                },
+                "kum kiok": [
+                    "Jumok/Pomok"
+                ],
                 "form": "Saju Ap Tchagui",
                 "sagui": [
                     "Moa sagui",
@@ -186,100 +198,161 @@
                     "Miryio tchagui"
                 ]
             },
-            "stripGub": "9",
-            "stripContent": {
-                "sagui": [],
-                "tchagui": [],
-                "form": "Saju Tchirgui"
+            "strip": {
+                "color": "yellow",
+                "gub": "9",
+                "beltContent": {
+                    "kum kiok": [],
+                    "sagui": [],
+                    "tchagui": [],
+                    "form": "Saju Tchirgui"
+                }
             }
         },
         "yellow": {
+            "color": "yellow",
             "gub": "8",
-            "meaning": {
-                "A riqueza": "A terra • Representa o início da adaptação do aluno no Taekwon-do, é simbolizado pela terra, onde a planta brota e finca sua raiz, é o começo de seu desenvolvimento técnico e muitos são tático, assim como de uma gama de princípios que irão ser adquiridos."
-            },
             "beltContent": {
+                "meaning": {
+                    "A riqueza": "A terra • Representa o início da adaptação do aluno no Taekwon-do, é simbolizado pela terra, onde a planta brota e finca sua raiz, é o começo de seu desenvolvimento técnico e muitos são tático, assim como de uma gama de princípios que irão ser adquiridos."
+                },
+                "kum kiok": [],
                 "form": "Tae Guk Il Jang",
                 "sagui": [],
                 "tchagui": [
-                    "Timio Ap tchagui",
-                    "Tora Ap tchagui",
-                    "Timio Ban dall tchagui",
-                    "Tora Ban dall tchagui",
-                    "Timio Dolho tchagui",
-                    "Tora Dolho tchagui",
-                    "Timio Yop tchagui",
-                    "Tora Yop tchagui",
-                    "Timio An tchagui",
-                    "Tora An tchagui",
-                    "Timio Pakat tchagui",
-                    "Tora Pakat tchagui",
-                    "Timio Nerio tchagui",
-                    "Tora Nerio tchagui",
-                    "Timio Tchit tchagui",
-                    "Tora Tchit tchagui",
-                    "Timio Neryo tchagui",
-                    "Tora Neryo tchagui",
-                    "Timio Miryio tchagui",
-                    "Furyo tchagui"
+                    "Timio Ap Tchagui",
+                    "Tora Ap Tchagui",
+                    "Timio Ban dall Tchagui",
+                    "Tora Ban dall Tchagui",
+                    "Timio Tora Redian Ban dall Tchagui",
+                    "Timio Dolho Tchagui",
+                    "Tora Dolho Tchagui",
+                    "Timio Tora Redian Dolho Tchagui",
+                    "Timio Yop Tchagui",
+                    "Tora Yop Tchagui",
+                    "Timio An Tchagui",
+                    "Tora An Tchagui",
+                    "Timio Tora Redian An Tchagui",
+                    "Timio Pakat Tchagui",
+                    "Tora Pakat Tchagui",
+                    "Timio Nerio Tchagui",
+                    "Tora Nerio Tchagui",
+                    "Timio Tora Redian Nerio Tchagui",
+                    "Timio Tchit Tchagui",
+                    "Tora Tchit Tchagui",
+                    "Timio Neryo Tchagui",
+                    "Tora Neryo Tchagui",
+                    "Timio Miryio Tchagui",
+                    "Furyo Tchagui"
                 ]
             },
-            "stripGub": "7",
-            "stripContent": {
-                "sagui": [],
-                "tchagui": [],
-                "form": "Tae Guk I Jang"
+            "strip": {
+                "color": "green",
+                "gub": "7",
+                "beltContent": {
+                    "kum kiok": [
+                        "Sonnal"
+                    ],
+                    "sagui": [
+                        "Duit Kubi"
+                    ],
+                    "tchagui": [
+                        "Tora Furyo Tchagui"
+                    ],
+                    "form": "Tae Guk I Jang"
+                }
             }
         },
         "green": {
+            "color": "green",
             "gub": "6",
-            "meaning": {
-                "O crescimento": "A planta • Representa o crescimento físico, mental e espiritual, é o início da destreza que começa a surgir no aluno, onde além do aprimoramento de todos seus conhecimentos, é fundamental que o aluno esteja ciente do espírito do Taekwon-do. É uma etapa de amplo crescimento de seu conhecimento."
-            },
             "beltContent": {
+                "meaning": {
+                    "O crescimento": "A planta • Representa o crescimento físico, mental e espiritual, é o início da destreza que começa a surgir no aluno, onde além do aprimoramento de todos seus conhecimentos, é fundamental que o aluno esteja ciente do espírito do Taekwon-do. É uma etapa de amplo crescimento de seu conhecimento."
+                },
+                "kum kiok": [],
                 "form": "Tae Guk Sam Jang",
                 "sagui": [],
                 "tchagui": []
             },
-            "stripGub": "5",
-            "stripContent": {
-                "sagui": [],
-                "tchagui": [],
-                "form": "Tae Guk Sa Jang"
+            "strip": {
+                "color": "blue",
+                "gub": "5",
+                "beltContent": {
+                    "kum kiok": [],
+                    "sagui": [],
+                    "tchagui": [],
+                    "form": "Tae Guk Sa Jang"
+                }
             }
         },
         "blue": {
+            "color": "blue",
             "gub": "4",
-            "meaning": {
-                "A liberdade": "O céu • Simbolizada pelo céu, para onde a planta se dirige; a liberdade de utilizar, com raciocínio e criatividade tudo o que foi aprendido. Representa o amadurecimento do aluno."
-            },
             "beltContent": {
+                "meaning": {
+                    "A liberdade": "O céu • Simbolizada pelo céu, para onde a planta se dirige; a liberdade de utilizar, com raciocínio e criatividade tudo o que foi aprendido. Representa o amadurecimento do aluno."
+                },
+                "kum kiok": [],
                 "form": "Tae Guk Oh Jang",
                 "sagui": [],
                 "tchagui": []
             },
-            "stripGub": "3",
-            "stripContent": {
-                "sagui": [],
-                "tchagui": [],
-                "form": "Tae Guk Yuk Jang"
+            "strip": {
+                "color": "red",
+                "gub": "3",
+                "beltContent": {
+                    "kum kiok": [],
+                    "sagui": [],
+                    "tchagui": [],
+                    "form": "Tae Guk Yuk Jang"
+                }
             }
         },
         "red": {
+            "color": "red",
             "gub": "2",
-            "meaning": {
-                "Alerta": "O sol • Assim como o sol é responsável pela vida no universo, nesta fase o aluno torna-se responsável por todos em sua academia. Seus conhecimentos adquiridos e aperfeiçoados representam uma parte da própria academia. Portanto é uma fase de alerta sobre seus atos e comportamentos, o aluno tem que ter a consciência de suas técnicas e do poder que elas têm, e por isso, é fundamental que este saiba por que, como, quando e para que usá-las, tendo em vista sua grande responsabilidade."
-            },
             "beltContent": {
+                "meaning": {
+                    "Alerta": "O sol • Assim como o sol é responsável pela vida no universo, nesta fase o aluno torna-se responsável por todos em sua academia. Seus conhecimentos adquiridos e aperfeiçoados representam uma parte da própria academia. Portanto é uma fase de alerta sobre seus atos e comportamentos, o aluno tem que ter a consciência de suas técnicas e do poder que elas têm, e por isso, é fundamental que este saiba por que, como, quando e para que usá-las, tendo em vista sua grande responsabilidade."
+                },
+                "kum kiok": [],
                 "form": "Tae Guk Chil Jang",
                 "sagui": [],
                 "tchagui": []
             },
-            "stripGub": "1",
-            "stripContent": {
+            "strip": {
+                "color": "black",
+                "gub": "1",
+                "beltContent": {
+                    "kum kiok": [],
+                    "sagui": [],
+                    "tchagui": [],
+                    "form": "Tae Guk Pal Jang"
+                }
+            }
+        },
+        "black": {
+            "color": "black",
+            "gub": "-1",
+            "beltContent": {
+                "meaning": {
+                    "": ""
+                },
+                "kum kiok": [],
+                "form": "",
                 "sagui": [],
-                "tchagui": [],
-                "form": "Tae Guk Pal Jang"
+                "tchagui": []
+            },
+            "strip": {
+                "color": "",
+                "gub": "",
+                "beltContent": {
+                    "kum kiok": [],
+                    "sagui": [],
+                    "tchagui": [],
+                    "form": ""
+                }
             }
         }
     }

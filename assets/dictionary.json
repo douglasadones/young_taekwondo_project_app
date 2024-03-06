@@ -1,4 +1,12 @@
 {
+    "Seban": {
+        "meaning": "Três",
+        "description": "Normalmente solicitado em sequências de movimento. Ex: Seban Pomok Are Maki (Três defesas em baixo com punho cerrado)"
+    },
+    "Duban": {
+        "meaning": "Dois",
+        "description": "Normalmente solicitado em sequências de movimento. Ex: Duban Jumok Moton Tchirgui (Dois socos com punho fechado na altura do tórax)"
+    },
     "Tae kwon-do": {
         "meaning": "Caminho dos pés e das mãos através da mente",
         "description": null

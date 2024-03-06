@@ -2,55 +2,47 @@ import 'dart:convert';
 
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 class BeltContent {
-  final Map<String, String> meaning;
+  final Map<String, dynamic>? meaning;
   final String form;
-  final List<String>? kumKiok;
-  final List<String>? diruguiList;
-  final List<String>? tchaguiList;
-  final List<String>? makiList;
-  final List<String>? saguiList;
-  final Map<String, dynamic>? stripContent;
-  
+  final List<dynamic>? kumKiok;
+  final List<dynamic>? tchaguiList;
+  final List<dynamic>? commandsList;
+  final List<dynamic>? saguiList;
+
   BeltContent({
-    required this.meaning,
+    this.meaning,
     required this.form,
     this.kumKiok,
-    this.diruguiList,
     this.tchaguiList,
-    this.makiList,
+    this.commandsList,
     this.saguiList,
-    this.stripContent,
   });
-
 
   @override
   String toString() {
-    return 'BeltContent(meaning: $meaning, form: $form, kumKiok: $kumKiok, diruguiList: $diruguiList, tchaguiList: $tchaguiList, makiList: $makiList, saguiList: $saguiList, stripContent: $stripContent)';
+    return 'BeltContent(meaning: $meaning, form: $form, kumKiok: $kumKiok, tchaguiList: $tchaguiList, commands: $commandsList, saguiList: $saguiList)';
   }
+
 
   Map<String, dynamic> toMap() {
     return <String, dynamic>{
       'meaning': meaning,
       'form': form,
       'kumKiok': kumKiok,
-      'diruguiList': diruguiList,
       'tchaguiList': tchaguiList,
-      'makiList': makiList,
+      'commandsList': commandsList,
       'saguiList': saguiList,
-      'stripContent': stripContent,
     };
   }
 
   factory BeltContent.fromMap(Map<String, dynamic> map) {
     return BeltContent(
-      meaning: Map<String, String>.from((map['meaning'] as Map<String, String>)),
-      form: map['form'] as String,
-      kumKiok: map['kumKiok'] != null ? List<String>.from((map['kumKiok'] as List<String>)) : null,
-      diruguiList: map['diruguiList'] != null ? List<String>.from((map['diruguiList'] as List<String>)) : null,
-      tchaguiList: map['tchaguiList'] != null ? List<String>.from((map['tchaguiList'] as List<String>)) : null,
-      makiList: map['makiList'] != null ? List<String>.from((map['makiList'] as List<String>)) : null,
-      saguiList: map['saguiList'] != null ? List<String>.from((map['saguiList'] as List<String>)) : null,
-      stripContent: map['stripContent'] != null ? Map<String, dynamic>.from((map['stripContent'] as Map<String, dynamic>)) : null,
+      meaning: map['meaning'] != null ? Map<String, dynamic>.from((map['meaning'] as Map<String, dynamic>)) : null,
+      form: map['form'].toString(),
+      kumKiok: map['kum kiok'] != null ? List<dynamic>.from((map['kum kiok'] as List<dynamic>)) : null,
+      tchaguiList: map['tchagui'] != null ? List<dynamic>.from((map['tchagui'] as List<dynamic>)) : null,
+      commandsList: map['commands'] != null ? List<dynamic>.from((map['commands'] as List<dynamic>)) : null,
+      saguiList: map['sagui'] != null ? List<dynamic>.from((map['sagui'] as List<dynamic>)) : null,
     );
   }
 

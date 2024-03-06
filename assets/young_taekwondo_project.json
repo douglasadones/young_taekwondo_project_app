@@ -81,6 +81,8 @@
             ]
         },
         "commands": [
+            "Duban",
+            "Seban",
             "Timio",
             "Tora",
             "Tchirgui",
@@ -294,9 +296,9 @@
                     "A liberdade": "O céu • Simbolizada pelo céu, para onde a planta se dirige; a liberdade de utilizar, com raciocínio e criatividade tudo o que foi aprendido. Representa o amadurecimento do aluno."
                 },
                 "kum kiok": [],
-                "form": "Tae Guk Oh Jang",
                 "sagui": [],
-                "tchagui": []
+                "tchagui": [],
+                "form": "Tae Guk Oh Jang"
             },
             "strip": {
                 "color": "red",
@@ -317,9 +319,10 @@
                     "Alerta": "O sol • Assim como o sol é responsável pela vida no universo, nesta fase o aluno torna-se responsável por todos em sua academia. Seus conhecimentos adquiridos e aperfeiçoados representam uma parte da própria academia. Portanto é uma fase de alerta sobre seus atos e comportamentos, o aluno tem que ter a consciência de suas técnicas e do poder que elas têm, e por isso, é fundamental que este saiba por que, como, quando e para que usá-las, tendo em vista sua grande responsabilidade."
                 },
                 "kum kiok": [],
-                "form": "Tae Guk Chil Jang",
+                
                 "sagui": [],
-                "tchagui": []
+                "tchagui": [],
+                "form": "Tae Guk Chil Jang"
             },
             "strip": {
                 "color": "black",

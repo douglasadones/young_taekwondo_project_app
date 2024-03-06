@@ -202,7 +202,9 @@
                     "Miryio tchagui"
                 ],
                 "Kibon Donjak":{"":[]},
-                "Sebon Kiorugui":{"":[]}
+                "Sebon Kiorugui":{"":[]},
+                "bal ki sull":{"":[]},
+                "commands":[]
             },
             "strip": {
                 "color": "yellow",
@@ -211,7 +213,8 @@
                     "kum kiok": [],
                     "sagui": [],
                     "tchagui": [],
-                    "form": "Saju Tchirgui"
+                    "form": "Saju Tchirgui",
+                    "commands":[]
                 }
             }
         },
@@ -252,7 +255,9 @@
                     "Furyo Tchagui"
                 ],
                 "Kibon Donjak":{"":[]},
-                "Sebon Kiorugui":{"":[]}
+                "Sebon Kiorugui":{"":[]},
+                "bal ki sull":{"":[]},
+                "commands":[]
             },
             "strip": {
                 "color": "green",
@@ -267,7 +272,8 @@
                     "tchagui": [
                         "Tora Furyo Tchagui"
                     ],
-                    "form": "Tae Guk I Jang"
+                    "form": "Tae Guk I Jang",
+                    "commands":[]
                 }
             }
         },
@@ -283,7 +289,9 @@
                 "sagui": [],
                 "tchagui": [],
                 "Kibon Donjak":{"":[]},
-                "Sebon Kiorugui":{"":[]}
+                "Sebon Kiorugui":{"":[]},
+                "bal ki sull":{"":[]},
+                "commands":[]
             },
             "strip": {
                 "color": "blue",
@@ -292,7 +300,8 @@
                     "kum kiok": [],
                     "sagui": [],
                     "tchagui": [],
-                    "form": "Tae Guk Sa Jang"
+                    "form": "Tae Guk Sa Jang",
+                    "commands":[]
                 }
             }
         },
@@ -308,7 +317,9 @@
                 "tchagui": [],
                 "form": "Tae Guk Oh Jang",
                 "Kibon Donjak":{"":[]},
-                "Sebon Kiorugui":{"":[]}
+                "Sebon Kiorugui":{"":[]},
+                "bal ki sull":{"":[]},
+                "commands":[]
             },
             "strip": {
                 "color": "red",
@@ -317,7 +328,8 @@
                     "kum kiok": [],
                     "sagui": [],
                     "tchagui": [],
-                    "form": "Tae Guk Yuk Jang"
+                    "form": "Tae Guk Yuk Jang",
+                    "commands":[]
                 }
             }
         },
@@ -333,7 +345,9 @@
                 "tchagui": [],
                 "form": "Tae Guk Chil Jang",
                 "Kibon Donjak":{"":[]},
-                "Sebon Kiorugui":{"":[]}
+                "Sebon Kiorugui":{"":[]},
+                "bal ki sull":{"":[]},
+                "commands":[]
             },
             "strip": {
                 "color": "black",
@@ -342,7 +356,8 @@
                     "kum kiok": [],
                     "sagui": [],
                     "tchagui": [],
-                    "form": "Tae Guk Pal Jang"
+                    "form": "Tae Guk Pal Jang",
+                    "commands":[]
                 }
             }
         },
@@ -358,7 +373,9 @@
                 "sagui": [],
                 "tchagui": [],
                 "Kibon Donjak":{"":[]},
-                "Sebon Kiorugui":{"":[]}
+                "Sebon Kiorugui":{"":[]},
+                "bal ki sull":{"":[]},
+                "commands":[]
             },
             "strip": {
                 "color": "",
@@ -367,7 +384,8 @@
                     "kum kiok": [],
                     "sagui": [],
                     "tchagui": [],
-                    "form": ""
+                    "form": "",
+                    "commands":[]
                 }
             }
         }

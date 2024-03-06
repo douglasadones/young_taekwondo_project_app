@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:taekwondo_jovem/src/consts.dart';
-import 'package:taekwondo_jovem/src/controller/data/belt_creator.dart';
+import 'package:taekwondo_jovem/src/controller/data/object_data_creator.dart';
 import 'package:taekwondo_jovem/src/utils/reusable_info_card.dart';
 
 class SecondPage extends StatelessWidget {
@@ -25,9 +25,9 @@ class SecondPage extends StatelessWidget {
               ReusableInfonCard(
                 onTap: () async {
                   // readJson();
-                  // print(testData.beltList);
+                  print(testData.beltList);
                   // print(testData.projectIfonsData);
-                  print(testData);
+                  // print(testData);
                 },
                 cardName: "Princípios",
                 title: "Princípios do Taekwondo",

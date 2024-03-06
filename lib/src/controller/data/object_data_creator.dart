@@ -1,5 +1,4 @@
 import 'package:taekwondo_jovem/src/controller/data/taekwondo_project_data.dart';
-import 'package:taekwondo_jovem/src/models/basic_knowledges_model.dart';
 import 'package:taekwondo_jovem/src/models/belt_content_model.dart';
 import 'package:taekwondo_jovem/src/models/belt_model.dart';
 import 'package:taekwondo_jovem/src/models/young_taekwondo_project_model.dart';

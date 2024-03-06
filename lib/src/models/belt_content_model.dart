@@ -10,8 +10,10 @@ class BeltContent {
   final List<dynamic>? saguiList;
   final Map<String, dynamic>? kibonDonjak;
   final Map<String, dynamic>? sebonKiorugui;
+  final Map<String, dynamic>? balKiSull;
 
   BeltContent({
+    this.balKiSull,
     this.kibonDonjak,
     this.sebonKiorugui,
     this.meaning,
@@ -31,6 +33,9 @@ class BeltContent {
       'tchaguiList': tchaguiList,
       'commandsList': commandsList,
       'saguiList': saguiList,
+      'kibonDonjak': kibonDonjak,
+      'sebonKiorugui': sebonKiorugui,
+      'balKiSull': balKiSull,
     };
   }
 
@@ -39,6 +44,7 @@ class BeltContent {
       meaning: map['meaning'] != null ? Map<String, dynamic>.from((map['meaning'] as Map<String, dynamic>)) : null,
       kibonDonjak: map['Kibon Donjak'] != null ? Map<String, dynamic>.from((map['Kibon Donjak'] as Map<String, dynamic>)) : null,
       sebonKiorugui: map['Sebon Kiorugui'] != null ? Map<String, dynamic>.from((map['Sebon Kiorugui'] as Map<String, dynamic>)) : null,
+      balKiSull: map['bal ki sull'] != null ? Map<String, dynamic>.from((map['bal ki sull'] as Map<String, dynamic>)) : null,
       form: map['form'].toString(),
       kumKiok: map['kum kiok'] != null ? List<dynamic>.from((map['kum kiok'] as List<dynamic>)) : null,
       tchaguiList: map['tchagui'] != null ? List<dynamic>.from((map['tchagui'] as List<dynamic>)) : null,
@@ -53,6 +59,6 @@ class BeltContent {
 
   @override
   String toString() {
-    return 'BeltContent(meaning: $meaning, form: $form, kumKiok: $kumKiok, tchaguiList: $tchaguiList, commandsList: $commandsList, saguiList: $saguiList, kibonDonjak: $kibonDonjak, sebonKiorugui: $sebonKiorugui)';
+    return 'BeltContent(meaning: $meaning, form: $form, kumKiok: $kumKiok, tchaguiList: $tchaguiList, commandsList: $commandsList, saguiList: $saguiList, kibonDonjak: $kibonDonjak, sebonKiorugui: $sebonKiorugui, balKiSull: $balKiSull)';
   }
 }

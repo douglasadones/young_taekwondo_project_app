@@ -4,13 +4,13 @@ import 'dart:convert';
 class BasicKnowledges {
   final String history;
   final Map<String, dynamic> principles;
-  final List<String> oaths;
+  final List<dynamic> oaths;
   final Map<String, dynamic> tratments;
-  final String dojangEtiquette;
-  final List<String> commands;
-  final List<String> numbers;
-  final List<String> bodyParts;
-  final List<String> definitions;
+  final Map<String, dynamic> dojangEtiquette;
+  final List<dynamic> commands;
+  final List<dynamic> numbers;
+  final List<dynamic> bodyParts;
+  final List<dynamic> definitions;
 
   BasicKnowledges({
     required this.history,
@@ -28,7 +28,7 @@ class BasicKnowledges {
     return <String, dynamic>{
       'history': history,
       'principles': principles,
-      'vow': oaths,
+      'oaths': oaths,
       'tratments': tratments,
       'dojangEtiquette': dojangEtiquette,
       'commands': commands,
@@ -40,19 +40,18 @@ class BasicKnowledges {
 
   factory BasicKnowledges.fromMap(Map<String, dynamic> map) {
     return BasicKnowledges(
-      history: map['history'] as String,
-      principles:
-          Map<String, dynamic>.from((map['principles'] as Map<String, dynamic>)),
-      oaths: List<String>.from(
-        (map['vow'] as List<String>),
-      ),
+      history: map['History'] as String,
+      principles: Map<String, dynamic>.from(
+          (map['principles'] as Map<String, dynamic>)),
+      oaths: List<dynamic>.from((map['oaths'] as List<dynamic>)),
       tratments:
           Map<String, dynamic>.from((map['tratments'] as Map<String, dynamic>)),
-      dojangEtiquette: map['dojangEtiquette'] as String,
-      commands: List<String>.from((map['commands'] as List<String>)),
-      numbers: List<String>.from((map['numbers'] as List<String>)),
-      bodyParts: List<String>.from((map['bodyParts'] as List<String>)),
-      definitions: List<String>.from((map['definitions'] as List<String>)),
+      dojangEtiquette: Map<String, dynamic>.from(
+          (map['dojangEtiquette'] as Map<String, dynamic>)),
+      commands: List<dynamic>.from((map['commands'] as List<dynamic>)),
+      numbers: List<dynamic>.from((map['numbers'] as List<dynamic>)),
+      bodyParts: List<dynamic>.from((map['bodyParts'] as List<dynamic>)),
+      definitions: List<dynamic>.from((map['definitions'] as List<dynamic>)),
     );
   }
 
@@ -60,4 +59,9 @@ class BasicKnowledges {
 
   factory BasicKnowledges.fromJson(String source) =>
       BasicKnowledges.fromMap(json.decode(source) as Map<String, dynamic>);
+
+  @override
+  String toString() {
+    return 'BasicKnowledges(history: $history, principles: $principles, oaths: $oaths, tratments: $tratments, dojangEtiquette: $dojangEtiquette, commands: $commands, numbers: $numbers, bodyParts: $bodyParts, definitions: $definitions)';
+  }
 }

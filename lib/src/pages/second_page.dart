@@ -25,9 +25,10 @@ class SecondPage extends StatelessWidget {
               ReusableInfonCard(
                 onTap: () async {
                   // readJson();
-                  print(testData.beltList);
+                  // print(testData.beltList);
                   // print(testData.projectIfonsData);
-                  // print(testData);
+                  // print(testData.basicKnowledgesCreator);
+                  print(testData.dictionaryData.search(word: 'Pular', accuracySearch: true));
                 },
                 cardName: "Princípios",
                 title: "Princípios do Taekwondo",

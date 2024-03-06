@@ -11,4 +11,12 @@ class TaekwondoProjectData {
     final Map<String, dynamic> decodedData = await jsonDecode(myLocalJson);
     return decodedData;
   }
+
+
+  static Future<Map<String, dynamic>> dictionaryData() async {
+    final String myLocalJson =
+        await rootBundle.loadString(dictionaryPath);
+    final Map<String, dynamic> decodedData = await jsonDecode(myLocalJson);
+    return decodedData;
+  }
 }

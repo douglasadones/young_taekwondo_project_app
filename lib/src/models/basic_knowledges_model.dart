@@ -3,9 +3,9 @@ import 'dart:convert';
 
 class BasicKnowledges {
   final String history;
-  final Map<String, String> principles;
+  final Map<String, dynamic> principles;
   final List<String> oaths;
-  final Map<String, String> tratments;
+  final Map<String, dynamic> tratments;
   final String dojangEtiquette;
   final List<String> commands;
   final List<String> numbers;
@@ -42,12 +42,12 @@ class BasicKnowledges {
     return BasicKnowledges(
       history: map['history'] as String,
       principles:
-          Map<String, String>.from((map['principles'] as Map<String, String>)),
+          Map<String, dynamic>.from((map['principles'] as Map<String, dynamic>)),
       oaths: List<String>.from(
         (map['vow'] as List<String>),
       ),
       tratments:
-          Map<String, String>.from((map['tratments'] as Map<String, String>)),
+          Map<String, dynamic>.from((map['tratments'] as Map<String, dynamic>)),
       dojangEtiquette: map['dojangEtiquette'] as String,
       commands: List<String>.from((map['commands'] as List<String>)),
       numbers: List<String>.from((map['numbers'] as List<String>)),

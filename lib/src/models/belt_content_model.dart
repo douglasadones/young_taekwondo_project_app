@@ -8,8 +8,12 @@ class BeltContent {
   final List<dynamic>? tchaguiList;
   final List<dynamic>? commandsList;
   final List<dynamic>? saguiList;
+  final Map<String, dynamic>? kibonDonjak;
+  final Map<String, dynamic>? sebonKiorugui;
 
   BeltContent({
+    this.kibonDonjak,
+    this.sebonKiorugui,
     this.meaning,
     required this.form,
     this.kumKiok,
@@ -17,11 +21,6 @@ class BeltContent {
     this.commandsList,
     this.saguiList,
   });
-
-  @override
-  String toString() {
-    return 'BeltContent(meaning: $meaning, form: $form, kumKiok: $kumKiok, tchaguiList: $tchaguiList, commands: $commandsList, saguiList: $saguiList)';
-  }
 
 
   Map<String, dynamic> toMap() {
@@ -38,6 +37,8 @@ class BeltContent {
   factory BeltContent.fromMap(Map<String, dynamic> map) {
     return BeltContent(
       meaning: map['meaning'] != null ? Map<String, dynamic>.from((map['meaning'] as Map<String, dynamic>)) : null,
+      kibonDonjak: map['Kibon Donjak'] != null ? Map<String, dynamic>.from((map['Kibon Donjak'] as Map<String, dynamic>)) : null,
+      sebonKiorugui: map['Sebon Kiorugui'] != null ? Map<String, dynamic>.from((map['Sebon Kiorugui'] as Map<String, dynamic>)) : null,
       form: map['form'].toString(),
       kumKiok: map['kum kiok'] != null ? List<dynamic>.from((map['kum kiok'] as List<dynamic>)) : null,
       tchaguiList: map['tchagui'] != null ? List<dynamic>.from((map['tchagui'] as List<dynamic>)) : null,
@@ -49,4 +50,9 @@ class BeltContent {
   String toJson() => json.encode(toMap());
 
   factory BeltContent.fromJson(String source) => BeltContent.fromMap(json.decode(source) as Map<String, dynamic>);
+
+  @override
+  String toString() {
+    return 'BeltContent(meaning: $meaning, form: $form, kumKiok: $kumKiok, tchaguiList: $tchaguiList, commandsList: $commandsList, saguiList: $saguiList, kibonDonjak: $kibonDonjak, sebonKiorugui: $sebonKiorugui)';
+  }
 }

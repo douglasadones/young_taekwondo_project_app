@@ -1,9 +1,9 @@
 {
-    "yougTaekwondoProject": {
+    "projectInfos": {
         "History": "",
         "ProjectName": "Equipe Taekwondo Jovem",
         "Foundation date": "DD/MM/AAAA",
-        "Founder": "Jefferson Castro",
+        "Founder": ["Jefferson Castro"],
         "Kwan-jam-nim": "Marcio Oliveira",
         "Location": ""
     },
@@ -26,7 +26,8 @@
         "tratments": {
             "Grão mestre": "kwan-jam-nim (7.º ao 9.º DAN)",
             "Mestre": "sa-bom-nim (4.º ao 6.º DAN)",
-            "Professores": "kio-sa-nim (1.º ao 3.º DAN)"
+            "Professores": "kio-sa-nim (1.º ao 3.º DAN)",
+            "Instrutor": "Jokyo-nim (2.º ao 1.º GUB)"
         },
         "dojangEtiquette": {
             "etiquette": [
@@ -82,7 +83,7 @@
         },
         "commands": [
             "Duban",
-            "Seban",
+            "Sebon",
             "Timio",
             "Tora",
             "Tchirgui",
@@ -105,7 +106,10 @@
             "Redian",
             "Ap bal",
             "Tit bal",
-            "Kyopa"
+            "Kyopa",
+            "Olgul",
+            "Monton",
+            "Are"
         ],
         "numbers": [
             "Hana",
@@ -149,10 +153,7 @@
             "Tui tchuk",
             "Tuit kumtchi",
             "Murup",
-            "Jogany",
-            "Olgul",
-            "Monton",
-            "Are"
+            "Jogany"
         ],
         "definitions": [
             "DO BOK",
@@ -161,6 +162,7 @@
             "SAGUI",
             "KI-RAB",
             "KIBON DONJAK",
+            "SEBON KIORUGUI",
             "MAKI",
             "KUM KIOK",
             "BAL KI SULL",
@@ -198,7 +200,9 @@
                     "Tchit tchagui",
                     "Neryo tchagui",
                     "Miryio tchagui"
-                ]
+                ],
+                "Kibon Donjak":{"":[]},
+                "Sebon Kiorugui":{"":[]}
             },
             "strip": {
                 "color": "yellow",
@@ -246,7 +250,9 @@
                     "Tora Neryo Tchagui",
                     "Timio Miryio Tchagui",
                     "Furyo Tchagui"
-                ]
+                ],
+                "Kibon Donjak":{"":[]},
+                "Sebon Kiorugui":{"":[]}
             },
             "strip": {
                 "color": "green",
@@ -275,7 +281,9 @@
                 "kum kiok": [],
                 "form": "Tae Guk Sam Jang",
                 "sagui": [],
-                "tchagui": []
+                "tchagui": [],
+                "Kibon Donjak":{"":[]},
+                "Sebon Kiorugui":{"":[]}
             },
             "strip": {
                 "color": "blue",
@@ -298,7 +306,9 @@
                 "kum kiok": [],
                 "sagui": [],
                 "tchagui": [],
-                "form": "Tae Guk Oh Jang"
+                "form": "Tae Guk Oh Jang",
+                "Kibon Donjak":{"":[]},
+                "Sebon Kiorugui":{"":[]}
             },
             "strip": {
                 "color": "red",
@@ -319,10 +329,11 @@
                     "Alerta": "O sol • Assim como o sol é responsável pela vida no universo, nesta fase o aluno torna-se responsável por todos em sua academia. Seus conhecimentos adquiridos e aperfeiçoados representam uma parte da própria academia. Portanto é uma fase de alerta sobre seus atos e comportamentos, o aluno tem que ter a consciência de suas técnicas e do poder que elas têm, e por isso, é fundamental que este saiba por que, como, quando e para que usá-las, tendo em vista sua grande responsabilidade."
                 },
                 "kum kiok": [],
-                
                 "sagui": [],
                 "tchagui": [],
-                "form": "Tae Guk Chil Jang"
+                "form": "Tae Guk Chil Jang",
+                "Kibon Donjak":{"":[]},
+                "Sebon Kiorugui":{"":[]}
             },
             "strip": {
                 "color": "black",
@@ -337,7 +348,7 @@
         },
         "black": {
             "color": "black",
-            "gub": "-1",
+            "gub": "0",
             "beltContent": {
                 "meaning": {
                     "": ""
@@ -345,7 +356,9 @@
                 "kum kiok": [],
                 "form": "",
                 "sagui": [],
-                "tchagui": []
+                "tchagui": [],
+                "Kibon Donjak":{"":[]},
+                "Sebon Kiorugui":{"":[]}
             },
             "strip": {
                 "color": "",

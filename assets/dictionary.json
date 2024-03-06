@@ -1,7 +1,15 @@
 {
-    "Seban": {
+    "Sebon Kiorugui": {
+        "meaning": "Luta combinada de três movimentos",
+        "description": null
+    },
+    "Pitro": {
+        "meaning": "Diagonal Para Fora",
+        "description": null
+    },
+    "Sebon": {
         "meaning": "Três",
-        "description": "Normalmente solicitado em sequências de movimento. Ex: Seban Pomok Are Maki (Três defesas em baixo com punho cerrado)"
+        "description": "Normalmente solicitado em sequências de movimento. Ex: Sebon Pomok Are Maki (Três defesas em baixo com punho cerrado)"
     },
     "Duban": {
         "meaning": "Dois",

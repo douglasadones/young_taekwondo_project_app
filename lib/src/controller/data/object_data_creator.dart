@@ -20,8 +20,25 @@ class ObjectDataCreator {
     dictionaryCreator();
   }
 
-  void beltCreator() async {
+  ObjectDataCreator.fromBeltData() {
+    beltCreator();
+  }
+
+  ObjectDataCreator.fromProjectInfoData() {
+    projectInfoCreator();
+  }
+
+  ObjectDataCreator.fromBasicKnowledgesData() {
+    basicKnowledgesCreator();
+  }
+
+  ObjectDataCreator.fromDictionaryData() {
+    dictionaryCreator();
+  }
+
+  Future<List<Belt>> beltCreator() async {
     Map<String, dynamic> beltsData = await TaekwondoProjectData.data();
+    List<Belt> beltList = [];
     beltsData["belts"].forEach(
       (key, value) {
         Map<String, dynamic> beltData = value;
@@ -43,6 +60,7 @@ class ObjectDataCreator {
         );
       },
     );
+    return beltList;
   }
 
   void projectInfoCreator() async {

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:taekwondo_jovem/src/pages/belts_page.dart';
-import 'package:taekwondo_jovem/src/pages/home_page.dart';
+import 'package:taekwondo_jovem/src/pages/belt_page.dart';
 import 'package:taekwondo_jovem/src/pages/second_page.dart';
+import 'package:taekwondo_jovem/src/pages/home_page.dart';
 
 class NavigationbarPage extends StatefulWidget {
+  static String id = 'navigationbar_page';
   const NavigationbarPage({super.key});
 
   @override
@@ -25,11 +26,11 @@ class _NavigationbarPageState extends State<NavigationbarPage> {
         selectedIndex: selectedIndexPage,
         destinations: const <Widget>[
           NavigationDestination(
-            icon: Icon(Icons.add_circle_outline_sharp),
+            icon: Icon(Icons.home),
             label: "Faixas",
           ),
           NavigationDestination(
-            icon: Icon(Icons.add_circle_outline_sharp),
+            icon: Icon(Icons.home),
             label: "Fundamentos",
           ),
           NavigationDestination(
@@ -39,9 +40,9 @@ class _NavigationbarPageState extends State<NavigationbarPage> {
         ],
       ),
       body: const <Widget>[
-        FaixaPage(),
-        SecondPage(),
+        BeltPage(),
         HomePage(),
+        SecondPage(),
       ][selectedIndexPage],
     );
   }

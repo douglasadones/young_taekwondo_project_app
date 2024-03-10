@@ -1,48 +1,53 @@
 import 'package:flutter/material.dart';
 
 import 'package:taekwondo_jovem/src/consts.dart';
-import 'package:taekwondo_jovem/src/controller/data/object_data_creator.dart';
 import 'package:taekwondo_jovem/src/utils/reusable_info_card.dart';
 
-class SecondPage extends StatelessWidget {
+class SecondPage extends StatefulWidget {
   const SecondPage({super.key});
 
   @override
+  State<SecondPage> createState() => _SecondPageState();
+}
+
+class _SecondPageState extends State<SecondPage> {
+  @override
   Widget build(BuildContext context) {
-    ObjectDataCreator testData = ObjectDataCreator();
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Segunda página'),
-      ),
+      // appBar: AppBar(
+      //   title: const Text('Primeira Página'),
+      // ),
       body: Container(
         decoration: kContainerBackgroundDecoration,
-        child: Padding(
-          padding: const EdgeInsets.all(20.0),
+        child: const Padding(
+          padding: EdgeInsets.all(20.0),
           child: Column(
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ReusableInfonCard(
-                onTap: () async {
-                  // readJson();
-                  // print(testData.beltList);
-                  // print(testData.projectIfonsData);
-                  // print(testData.basicKnowledgesCreator);
-                  print(testData.dictionaryData.search(word: 'Pular', accuracySearch: true));
-                },
-                cardName: "Princípios",
-                title: "Princípios do Taekwondo",
-                cardIcon: Icons.sports_martial_arts_outlined,
+                cardIcon: Icons.location_on_sharp,
+                cardName: "Local de Treino",
+                title: "U E Epaminondas Castelo Branco",
+                subtitle:
+                    "R. James Clark - B De Fatima, Parnaíba - PI, 64215-300",
               ),
-              const ReusableInfonCard(
-                cardName: "Juramentos",
-                title: "Juramentos do Taekwondo",
-                cardIcon: Icons.sports_martial_arts_outlined,
+              SizedBox(
+                height: 20,
               ),
-              const ReusableInfonCard(
-                cardName: "Etiqueta no Dojang",
-                title: "Comportamento do praticante de Taekwondo",
+              ReusableInfonCard(
+                cardIcon: Icons.date_range,
+                cardName: "Data de Exames",
+                title: "Nenhum Exame Marcado",
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              ReusableInfonCard(
                 cardIcon: Icons.sports_martial_arts_outlined,
+                cardName: "Sobre a equipe",
+                title: "Projeto Taekwondo Jovem",
+                subtitle: "História, Fundação e fundadores do projeto",
               ),
             ],
           ),

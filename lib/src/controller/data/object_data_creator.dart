@@ -9,34 +9,7 @@ const dictionaryPath = "assets/dictionary.json";
 const youngTaekwondoProjectPath = "assets/young_taekwondo_project.json";
 
 class ObjectDataCreator {
-  List<Belt> beltList = [];
-  late YoungTaekwondoProject projectIfonsData;
-  late BasicKnowledges basicKnowledgesData;
-  late DictionaryTranslator dictionaryData;
-  ObjectDataCreator() {
-    beltCreator();
-    projectInfoCreator();
-    basicKnowledgesCreator();
-    dictionaryCreator();
-  }
-
-  ObjectDataCreator.fromBeltData() {
-    beltCreator();
-  }
-
-  ObjectDataCreator.fromProjectInfoData() {
-    projectInfoCreator();
-  }
-
-  ObjectDataCreator.fromBasicKnowledgesData() {
-    basicKnowledgesCreator();
-  }
-
-  ObjectDataCreator.fromDictionaryData() {
-    dictionaryCreator();
-  }
-
-  Future<List<Belt>> beltCreator() async {
+  static Future<List<Belt>> beltCreator() async {
     Map<String, dynamic> beltsData = await TaekwondoProjectData.data();
     List<Belt> beltList = [];
     beltsData["belts"].forEach(
@@ -63,24 +36,31 @@ class ObjectDataCreator {
     return beltList;
   }
 
-  void projectInfoCreator() async {
+  static Future<YoungTaekwondoProject> projectInfoCreator() async {
+    YoungTaekwondoProject projectIfonsData;
     Map<String, dynamic> taekwondoProjectData =
         await TaekwondoProjectData.data();
     projectIfonsData =
         YoungTaekwondoProject.fromMap(taekwondoProjectData["projectInfos"]);
+    return projectIfonsData;
   }
 
-  void basicKnowledgesCreator() async {
+  static Future<BasicKnowledges> basicKnowledgesCreator() async {
+    BasicKnowledges basicKnowledgesData;
     Map<String, dynamic> taekwondoProjectData =
         await TaekwondoProjectData.data();
 
     basicKnowledgesData =
         BasicKnowledges.fromMap(taekwondoProjectData["basicknowledges"]);
+    return basicKnowledgesData;
   }
 
-  void dictionaryCreator() async {
+  static Future<DictionaryTranslator> dictionaryCreator() async {
+    DictionaryTranslator dictionaryData;
     Map<String, dynamic> newDictionaryData =
         await TaekwondoProjectData.dictionaryData();
     dictionaryData = DictionaryTranslator(dictionary: newDictionaryData);
+
+    return dictionaryData;
   }
 }

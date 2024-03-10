@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:taekwondo_jovem/src/consts.dart';
-import 'package:taekwondo_jovem/src/controller/data/object_data_creator.dart';
 
 class BeltPage extends StatefulWidget {
   static String id = 'faixa_page';
@@ -20,7 +19,7 @@ class _BeltPageState extends State<BeltPage> {
       Colors.blue
     ];
 
-    final testeasync = ObjectDataCreator().beltList;
+    // final testeasync = ObjectDataCreator().beltList;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Conteúdo por'),
@@ -32,7 +31,7 @@ class _BeltPageState extends State<BeltPage> {
           child: ListView.builder(
             itemCount: teste.length,
             itemBuilder: ((context, index) {
-              print(testeasync.length);
+              // print(testeasync.length);
               return Row(
                 children: [
                   BeltWidget(color: teste[index]),

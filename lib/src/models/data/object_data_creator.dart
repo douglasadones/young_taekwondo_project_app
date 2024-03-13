@@ -1,16 +1,16 @@
-import 'package:taekwondo_jovem/src/controller/data/taekwondo_project_data.dart';
+import 'package:taekwondo_jovem/src/models/data/dictionary_json_data.dart';
+import 'package:taekwondo_jovem/src/models/data/young_taekwondo_project_json.dart';
 import 'package:taekwondo_jovem/src/models/basic_knowledges_model.dart';
 import 'package:taekwondo_jovem/src/models/belt_content_model.dart';
 import 'package:taekwondo_jovem/src/models/belt_model.dart';
 import 'package:taekwondo_jovem/src/models/young_taekwondo_project_model.dart';
 import 'package:taekwondo_jovem/src/models/dictionary_translator_model.dart';
 
-const dictionaryPath = "assets/dictionary.json";
-const youngTaekwondoProjectPath = "assets/young_taekwondo_project.json";
-
 class ObjectDataCreator {
-  static Future<List<Belt>> beltCreator() async {
-    Map<String, dynamic> beltsData = await TaekwondoProjectData.data();
+  static Map<String, dynamic> allTKDData = youngTaekwondoProjectData;
+  static Map<String, dynamic> allDictionaryData = dictionaryData;
+  static List<Belt> beltCreator() {
+    Map<String, dynamic> beltsData = allTKDData;
     List<Belt> beltList = [];
     beltsData["belts"].forEach(
       (key, value) {
@@ -36,31 +36,27 @@ class ObjectDataCreator {
     return beltList;
   }
 
-  static Future<YoungTaekwondoProject> projectInfoCreator() async {
+  static YoungTaekwondoProject projectInfoCreator() {
     YoungTaekwondoProject projectIfonsData;
-    Map<String, dynamic> taekwondoProjectData =
-        await TaekwondoProjectData.data();
+    Map<String, dynamic> taekwondoProjectData = allTKDData;
     projectIfonsData =
         YoungTaekwondoProject.fromMap(taekwondoProjectData["projectInfos"]);
     return projectIfonsData;
   }
 
-  static Future<BasicKnowledges> basicKnowledgesCreator() async {
+  static BasicKnowledges basicKnowledgesCreator() {
     BasicKnowledges basicKnowledgesData;
-    Map<String, dynamic> taekwondoProjectData =
-        await TaekwondoProjectData.data();
+    Map<String, dynamic> taekwondoProjectData = allTKDData;
 
     basicKnowledgesData =
         BasicKnowledges.fromMap(taekwondoProjectData["basicknowledges"]);
     return basicKnowledgesData;
   }
 
-  static Future<DictionaryTranslator> dictionaryCreator() async {
+  static DictionaryTranslator dictionaryCreator() {
     DictionaryTranslator dictionaryData;
-    Map<String, dynamic> newDictionaryData =
-        await TaekwondoProjectData.dictionaryData();
+    Map<String, dynamic> newDictionaryData = allTKDData;
     dictionaryData = DictionaryTranslator(dictionary: newDictionaryData);
-
     return dictionaryData;
   }
 }

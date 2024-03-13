@@ -1,21 +1,10 @@
 import 'package:flutter/material.dart';
-
-import 'package:taekwondo_jovem/src/controller/data/object_data_creator.dart';
+import 'package:provider/provider.dart';
 import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
-import 'package:taekwondo_jovem/src/models/basic_knowledges_model.dart';
-import 'package:taekwondo_jovem/src/models/belt_model.dart';
-import 'package:taekwondo_jovem/src/models/dictionary_translator_model.dart';
-import 'package:taekwondo_jovem/src/models/young_taekwondo_project_model.dart';
+import 'package:taekwondo_jovem/src/models/data/object_data_creator.dart';
+import 'package:taekwondo_jovem/src/pages/home_page.dart';
 
-void takingData() async {
-  List<Belt> beltList = await ObjectDataCreator.beltCreator();
-  YoungTaekwondoProject projectInfoData =
-      await ObjectDataCreator.projectInfoCreator();
-  BasicKnowledges basicKnowledgesData =
-      await ObjectDataCreator.basicKnowledgesCreator();
-  DictionaryTranslator dictionaryTranslatorData =
-      await ObjectDataCreator.dictionaryCreator();
-}
+void takingData() async {}
 
 class LoadingPage extends StatefulWidget {
   static String id = "loading_page";
@@ -28,11 +17,11 @@ class _LoadingPageState extends State<LoadingPage> {
   @override
   void initState() {
     super.initState();
-    takingData();
   }
 
   @override
   Widget build(BuildContext context) {
+    DataProvider _dataProvider = Provider.of<DataProvider>(context);
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -41,9 +30,11 @@ class _LoadingPageState extends State<LoadingPage> {
           children: [
             Center(
               child: GestureDetector(
-                child: CircularProgressIndicator(),
+                child: const CircularProgressIndicator(),
                 onTap: () {
-                  // print(DataProvider().beltList.length);
+                  var teste = ObjectDataCreator.beltCreator();
+                  print(_dataProvider.beltList);
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const HomePage()));
                 },
               ),
             )

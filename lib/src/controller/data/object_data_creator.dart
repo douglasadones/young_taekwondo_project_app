@@ -9,6 +9,7 @@ const dictionaryPath = "assets/dictionary.json";
 const youngTaekwondoProjectPath = "assets/young_taekwondo_project.json";
 
 class ObjectDataCreator {
+  
   static Future<List<Belt>> beltCreator() async {
     Map<String, dynamic> beltsData = await TaekwondoProjectData.data();
     List<Belt> beltList = [];

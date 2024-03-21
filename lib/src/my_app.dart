@@ -3,8 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
 import 'package:taekwondo_jovem/src/pages/belt_page.dart';
 import 'package:taekwondo_jovem/src/pages/home_page.dart';
-import 'package:taekwondo_jovem/src/pages/loading_page.dart';
-
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -20,9 +18,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        initialRoute: LoadingPage.id,
+        initialRoute: HomePage.id,
         routes: {
-          LoadingPage.id: (context) => const LoadingPage(),
           HomePage.id: (context) => const HomePage(),
           BeltPage.id: (context) => const BeltPage(),
         },

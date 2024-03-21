@@ -1,10 +1,12 @@
-import 'package:taekwondo_jovem/src/models/data/dictionary_json_data.dart';
-import 'package:taekwondo_jovem/src/models/data/young_taekwondo_project_json.dart';
+import 'package:taekwondo_jovem/src/models/data/dictionary_data.dart';
+import 'package:taekwondo_jovem/src/models/data/young_taekwondo_project_data.dart';
 import 'package:taekwondo_jovem/src/models/basic_knowledges_model.dart';
 import 'package:taekwondo_jovem/src/models/belt_content_model.dart';
 import 'package:taekwondo_jovem/src/models/belt_model.dart';
 import 'package:taekwondo_jovem/src/models/young_taekwondo_project_model.dart';
 import 'package:taekwondo_jovem/src/models/dictionary_translator_model.dart';
+
+import 'package:taekwondo_jovem/src/consts.dart';
 
 class ObjectDataCreator {
   static Map<String, dynamic> allTKDData = youngTaekwondoProjectData;
@@ -21,12 +23,14 @@ class ObjectDataCreator {
         Map<String, dynamic> beltStripContentData =
             value["strip"]["beltContent"];
 
+
+
         beltList.add(
           Belt(
-            beltColor: beltData["color"],
-            beltGub: beltData["gub"],
-            stripColor: beltStripData["color"],
-            stripBeltGub: beltStripData["gub"],
+            beltColor: kColorfulBeltsMap[beltData["color"]],
+            beltGub: int.parse(beltData["gub"]),
+            stripColor: kColorfulBeltsMap[beltStripData["color"]],
+            stripBeltGub: int.parse(beltStripData["gub"]),
             beltContent: BeltContent.fromMap(beltContentData),
             stripContent: BeltContent.fromMap(beltStripContentData),
           ),

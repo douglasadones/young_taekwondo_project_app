@@ -361,7 +361,7 @@ Map<String, dynamic> youngTaekwondoProjectData = {
     },
     "black": {
       "color": "black",
-      "gub": "0",
+      "gub": "11",
       "beltContent": {
         "meaning": {"": ""},
         "kum kiok": [],
@@ -374,8 +374,8 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "commands": []
       },
       "strip": {
-        "color": "",
-        "gub": "",
+        "color": "white",
+        "gub": "12",
         "beltContent": {
           "kum kiok": [],
           "sagui": [],

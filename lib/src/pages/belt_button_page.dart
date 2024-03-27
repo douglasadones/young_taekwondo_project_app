@@ -4,15 +4,15 @@ import 'package:taekwondo_jovem/src/consts.dart';
 import 'package:taekwondo_jovem/src/utils/belt_widget_class.dart';
 import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
 
-class BeltPage extends StatefulWidget {
+class BeltButtonPage extends StatefulWidget {
   static String id = 'faixa_page';
-  const BeltPage({super.key});
+  const BeltButtonPage({super.key});
 
   @override
-  State<BeltPage> createState() => _BeltPageState();
+  State<BeltButtonPage> createState() => _BeltButtonPageState();
 }
 
-class _BeltPageState extends State<BeltPage> {
+class _BeltButtonPageState extends State<BeltButtonPage> {
   @override
   Widget build(BuildContext context) {
     final beltList = Provider.of<DataProvider>(context).beltList;

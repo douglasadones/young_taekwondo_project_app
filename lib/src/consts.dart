@@ -12,10 +12,10 @@ const kContainerBackgroundDecoration = BoxDecoration(
 );
 
 const Map<String, Color> kColorfulBeltsMap = {
-  "white": Colors.white,
-  "yellow":Colors.yellow,
-  "green": Colors.green,
-  "blue":Colors.blue,
-  "red":Colors.red,
-  "black": Colors.black,
+  "branca": Colors.white,
+  "amarela":Colors.yellow,
+  "verde": Colors.green,
+  "azul":Colors.blue,
+  "vermelha":Colors.red,
+  "preta": Colors.black,
 };

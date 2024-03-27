@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:taekwondo_jovem/src/consts.dart';
-import 'package:taekwondo_jovem/src/pages/belt_page.dart';
+import 'package:taekwondo_jovem/src/pages/belt_button_page.dart';
 import 'package:taekwondo_jovem/src/utils/reusable_info_card.dart';
 
 enum InfoType {
@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const BeltPage()));
+                          builder: (context) => const BeltButtonPage()));
                 },
                 cardName: "Faixas",
                 title: "Conteúdo por Faixa",

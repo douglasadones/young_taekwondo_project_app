@@ -23,11 +23,9 @@ class ObjectDataCreator {
         Map<String, dynamic> beltStripContentData =
             value["strip"]["beltContent"];
 
-
-
         beltList.add(
           Belt(
-            beltColor: kColorfulBeltsMap[beltData["color"]],
+            beltColor: kColorfulBeltsMap[beltContentData["color"]],
             beltGub: int.parse(beltData["gub"]),
             stripColor: kColorfulBeltsMap[beltStripData["color"]],
             stripBeltGub: int.parse(beltStripData["gub"]),

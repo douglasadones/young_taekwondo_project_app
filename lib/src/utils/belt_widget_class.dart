@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:taekwondo_jovem/src/models/belt_model.dart';
+import 'package:taekwondo_jovem/src/pages/single_belt_buttons_page.dart';
 
 class BeltWidget extends StatelessWidget {
   const BeltWidget({
@@ -26,7 +27,15 @@ class BeltWidget extends StatelessWidget {
           elevation: 2.0,
           child: InkWell(
             borderRadius: BorderRadius.circular(13),
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SingleBeltButtonsPage(
+                      belt: belt,
+                    ),
+                  ));
+            },
             child: Container(
               padding: const EdgeInsets.symmetric(vertical: 5),
               decoration: BoxDecoration(

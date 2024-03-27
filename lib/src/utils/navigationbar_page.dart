@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:taekwondo_jovem/src/pages/belt_page.dart';
+import 'package:taekwondo_jovem/src/pages/belt_button_page.dart';
 import 'package:taekwondo_jovem/src/pages/second_page.dart';
 import 'package:taekwondo_jovem/src/pages/home_page.dart';
 
@@ -40,7 +40,7 @@ class _NavigationbarPageState extends State<NavigationbarPage> {
         ],
       ),
       body: const <Widget>[
-        BeltPage(),
+        BeltButtonPage(),
         HomePage(),
         SecondPage(),
       ][selectedIndexPage],

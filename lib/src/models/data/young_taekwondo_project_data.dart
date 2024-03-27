@@ -172,10 +172,10 @@ Map<String, dynamic> youngTaekwondoProjectData = {
     ]
   },
   "belts": {
-    "white": {
-      "color": "white",
+    "branca": {
       "gub": "10",
       "beltContent": {
+        "color": "branca",
         "meaning": {
           "A pureza e a inocência":
               "Semente • Representa o início do aprendizado do Taekwon-do, onde o aluno que se encontra desprovido do conhecimento terá o primeiro contato com a arte e com seus princípios básicos, tais como, disciplina, respeito, cortesia, humildade, perseverança e autocontrole."
@@ -207,7 +207,7 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "commands": []
       },
       "strip": {
-        "color": "yellow",
+        "color": "amarela",
         "gub": "9",
         "beltContent": {
           "kum kiok": [],
@@ -218,10 +218,10 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         }
       }
     },
-    "yellow": {
-      "color": "yellow",
+    "amarela": {
       "gub": "8",
       "beltContent": {
+        "color": "amarela",
         "meaning": {
           "A riqueza":
               "A terra • Representa o início da adaptação do aluno no Taekwon-do, é simbolizado pela terra, onde a planta brota e finca sua raiz, é o começo de seu desenvolvimento técnico e muitos são tático, assim como de uma gama de princípios que irão ser adquiridos."
@@ -261,7 +261,7 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "commands": []
       },
       "strip": {
-        "color": "green",
+        "color": "verde",
         "gub": "7",
         "beltContent": {
           "kum kiok": ["Sonnal"],
@@ -272,10 +272,10 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         }
       }
     },
-    "green": {
-      "color": "green",
+    "verde": {
       "gub": "6",
       "beltContent": {
+        "color": "verde",
         "meaning": {
           "O crescimento":
               "A planta • Representa o crescimento físico, mental e espiritual, é o início da destreza que começa a surgir no aluno, onde além do aprimoramento de todos seus conhecimentos, é fundamental que o aluno esteja ciente do espírito do Taekwon-do. É uma etapa de amplo crescimento de seu conhecimento."
@@ -290,7 +290,7 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "commands": []
       },
       "strip": {
-        "color": "blue",
+        "color": "azul",
         "gub": "5",
         "beltContent": {
           "kum kiok": [],
@@ -301,10 +301,10 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         }
       }
     },
-    "blue": {
-      "color": "blue",
+    "azul": {
       "gub": "4",
       "beltContent": {
+        "color": "azul",
         "meaning": {
           "A liberdade":
               "O céu • Simbolizada pelo céu, para onde a planta se dirige; a liberdade de utilizar, com raciocínio e criatividade tudo o que foi aprendido. Representa o amadurecimento do aluno."
@@ -319,7 +319,7 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "commands": []
       },
       "strip": {
-        "color": "red",
+        "color": "vermelha",
         "gub": "3",
         "beltContent": {
           "kum kiok": [],
@@ -330,10 +330,10 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         }
       }
     },
-    "red": {
-      "color": "red",
+    "vermelha": {
       "gub": "2",
       "beltContent": {
+        "color": "vermelha",
         "meaning": {
           "Alerta":
               "O sol • Assim como o sol é responsável pela vida no universo, nesta fase o aluno torna-se responsável por todos em sua academia. Seus conhecimentos adquiridos e aperfeiçoados representam uma parte da própria academia. Portanto é uma fase de alerta sobre seus atos e comportamentos, o aluno tem que ter a consciência de suas técnicas e do poder que elas têm, e por isso, é fundamental que este saiba por que, como, quando e para que usá-las, tendo em vista sua grande responsabilidade."
@@ -348,7 +348,7 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "commands": []
       },
       "strip": {
-        "color": "black",
+        "color": "preta",
         "gub": "1",
         "beltContent": {
           "kum kiok": [],
@@ -359,10 +359,10 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         }
       }
     },
-    "black": {
-      "color": "black",
+    "preta": {
       "gub": "11",
       "beltContent": {
+        "color": "preta",
         "meaning": {"": ""},
         "kum kiok": [],
         "form": "",
@@ -374,7 +374,7 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "commands": []
       },
       "strip": {
-        "color": "white",
+        "color": "branca",
         "gub": "12",
         "beltContent": {
           "kum kiok": [],

@@ -33,6 +33,7 @@ class BeltWidget extends StatelessWidget {
                   MaterialPageRoute(
                     builder: (context) => SingleBeltButtonsPage(
                       belt: belt,
+                      isStrip: (stripColor != null) ? true : false,
                     ),
                   ));
             },
@@ -70,6 +71,7 @@ class BeltWidget extends StatelessWidget {
                           ),
                         ),
                         Expanded(
+                          flex: stripColor != null ? 1 : 0,
                           child: Container(
                             height: 40,
                             color: color,

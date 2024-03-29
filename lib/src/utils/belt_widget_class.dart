@@ -30,14 +30,15 @@ class BeltWidget extends StatelessWidget {
           child: InkWell(
             borderRadius: BorderRadius.circular(13),
             onTap: () {
+              Provider.of<DataProvider>(context, listen: false).isStrip =
+                  (stripColor != null) ? true : false;
+              print(Provider.of<DataProvider>(context, listen: false).isStrip);
               Provider.of<DataProvider>(context, listen: false).currentBelt =
                   belt;
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => SelectedBeltGeralInfoPage(
-                    isStrip: (stripColor != null) ? true : false,
-                  ),
+                  builder: (context) => const SelectedBeltGeralInfoPage(),
                 ),
               );
             },

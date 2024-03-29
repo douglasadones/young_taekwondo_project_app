@@ -7,6 +7,7 @@ import 'package:taekwondo_jovem/src/models/young_taekwondo_project_model.dart';
 
 class DataProvider extends ChangeNotifier {
   Belt? currentBelt;
+  bool? isStrip = false;
   List<Belt> beltList = ObjectDataCreator.beltCreator();
   YoungTaekwondoProject projectInfoData =
       ObjectDataCreator.projectInfoCreator();

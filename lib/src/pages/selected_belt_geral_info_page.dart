@@ -3,17 +3,26 @@ import 'package:provider/provider.dart';
 import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
 import 'package:taekwondo_jovem/src/models/belt_model.dart';
 import 'package:taekwondo_jovem/src/utils/reusable_button.dart';
+import 'package:taekwondo_jovem/src/utils/capitalizing_string.dart';
 
 class SelectedBeltGeralInfoPage extends StatelessWidget {
   static String id = 'selected_belt_geral_info_page';
-  final bool? isStrip;
 
-  const SelectedBeltGeralInfoPage({super.key, this.isStrip});
+  const SelectedBeltGeralInfoPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     Belt belt = Provider.of<DataProvider>(context).currentBelt!;
+    bool? isStrip = Provider.of<DataProvider>(context).isStrip;
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: belt.beltColor,
+        title: Text(
+          "Faixa ${belt.beltContent.color.toString().capitalize()} ${(isStrip!) ? 'Ponteira' : ''}",
+          textAlign: TextAlign.center,
+          style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+        ),
+      ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -31,7 +40,7 @@ class SelectedBeltGeralInfoPage extends StatelessWidget {
                   colors: [
                     belt.beltColor!.withOpacity(0.2),
                     belt.beltColor!.withOpacity(0.2),
-                    (isStrip!)
+                    (isStrip)
                         ? belt.stripColor!.withOpacity(0.2)
                         : belt.beltColor!.withOpacity(0.2),
                     belt.beltColor!.withOpacity(0.2),
@@ -39,16 +48,16 @@ class SelectedBeltGeralInfoPage extends StatelessWidget {
                 ),
               ),
               child: Padding(
-                padding: const EdgeInsets.only(top: 50.0),
+                padding: const EdgeInsets.only(top: 20.0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Center(
                       child: Text(
-                        "Faixa ${belt.beltContent.color} ${(isStrip!) ? 'Ponteira' : ''} - ${belt.beltContent.meaning!.keys.first}",
+                        belt.beltContent.meaning!.keys.first,
                         textAlign: TextAlign.center,
                         style: const TextStyle(
-                            fontSize: 20.0, fontWeight: FontWeight.bold),
+                            fontSize: 25.0, fontWeight: FontWeight.bold),
                       ),
                     ),
                     Expanded(

@@ -18,7 +18,7 @@ class _SelectionBeltPageState extends State<SelectionBeltPage> {
     final beltList = Provider.of<DataProvider>(context).beltList;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Conteúdo por'),
+        title: const Text('Conteúdo por Faixa'),
       ),
       body: Container(
         decoration: kContainerBackgroundDecoration,

@@ -6,8 +6,12 @@ import 'package:taekwondo_jovem/src/models/dictionary_translator_model.dart';
 import 'package:taekwondo_jovem/src/models/young_taekwondo_project_model.dart';
 
 class DataProvider extends ChangeNotifier {
+  Belt? currentBelt;
   List<Belt> beltList = ObjectDataCreator.beltCreator();
-  YoungTaekwondoProject projectInfoData = ObjectDataCreator.projectInfoCreator();
-  BasicKnowledges basicKnowledgesData = ObjectDataCreator.basicKnowledgesCreator();
-  DictionaryTranslator dictionaryTranslatorData = ObjectDataCreator.dictionaryCreator();
+  YoungTaekwondoProject projectInfoData =
+      ObjectDataCreator.projectInfoCreator();
+  BasicKnowledges basicKnowledgesData =
+      ObjectDataCreator.basicKnowledgesCreator();
+  DictionaryTranslator dictionaryTranslatorData =
+      ObjectDataCreator.dictionaryCreator();
 }

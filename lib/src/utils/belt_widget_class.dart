@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
 import 'package:taekwondo_jovem/src/models/belt_model.dart';
-import 'package:taekwondo_jovem/src/pages/single_belt_buttons_page.dart';
+import 'package:taekwondo_jovem/src/pages/selected_belt_geral_info_page.dart';
 
 class BeltWidget extends StatelessWidget {
   const BeltWidget({
@@ -28,14 +30,16 @@ class BeltWidget extends StatelessWidget {
           child: InkWell(
             borderRadius: BorderRadius.circular(13),
             onTap: () {
+              Provider.of<DataProvider>(context, listen: false).currentBelt =
+                  belt;
               Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => SingleBeltButtonsPage(
-                      belt: belt,
-                      isStrip: (stripColor != null) ? true : false,
-                    ),
-                  ));
+                context,
+                MaterialPageRoute(
+                  builder: (context) => SelectedBeltGeralInfoPage(
+                    isStrip: (stripColor != null) ? true : false,
+                  ),
+                ),
+              );
             },
             child: Container(
               padding: const EdgeInsets.symmetric(vertical: 5),

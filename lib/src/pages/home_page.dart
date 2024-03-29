@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:taekwondo_jovem/src/consts.dart';
-import 'package:taekwondo_jovem/src/pages/belt_button_page.dart';
+import 'package:taekwondo_jovem/src/pages/selection_belt_page.dart';
 import 'package:taekwondo_jovem/src/utils/reusable_info_card.dart';
-
-enum InfoType {
-  youngTaekowndoProject,
-  knowledges,
-  belts,
-}
 
 class HomePage extends StatelessWidget {
   static String id = "home_page";
@@ -31,7 +25,7 @@ class HomePage extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const BeltButtonPage()));
+                          builder: (context) => const SelectionBeltPage()));
                 },
                 cardName: "Faixas",
                 title: "Conteúdo por Faixa",

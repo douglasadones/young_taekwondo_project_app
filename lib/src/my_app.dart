@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
-import 'package:taekwondo_jovem/src/pages/belt_button_page.dart';
+import 'package:taekwondo_jovem/src/pages/selection_belt_page.dart';
 import 'package:taekwondo_jovem/src/pages/home_page.dart';
-import 'package:taekwondo_jovem/src/pages/single_belt_buttons_page.dart';
+import 'package:taekwondo_jovem/src/pages/selected_belt_geral_info_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -22,8 +22,9 @@ class MyApp extends StatelessWidget {
         initialRoute: HomePage.id,
         routes: {
           HomePage.id: (context) => const HomePage(),
-          BeltButtonPage.id: (context) => const BeltButtonPage(),
-          SingleBeltButtonsPage.id: (context) => const SingleBeltButtonsPage(),
+          SelectionBeltPage.id: (context) => const SelectionBeltPage(),
+          SelectedBeltGeralInfoPage.id: (context) =>
+              const SelectedBeltGeralInfoPage(),
         },
       ),
     );

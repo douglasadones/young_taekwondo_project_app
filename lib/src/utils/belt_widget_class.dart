@@ -32,7 +32,6 @@ class BeltWidget extends StatelessWidget {
             onTap: () {
               Provider.of<DataProvider>(context, listen: false).isStrip =
                   (stripColor != null) ? true : false;
-              print(Provider.of<DataProvider>(context, listen: false).isStrip);
               Provider.of<DataProvider>(context, listen: false).currentBelt =
                   belt;
               Navigator.push(

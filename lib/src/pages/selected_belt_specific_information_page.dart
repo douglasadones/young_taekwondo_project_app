@@ -7,7 +7,8 @@ import 'package:taekwondo_jovem/src/utils/capitalizing_string.dart';
 class SelectedBeltSpecificInformationPage extends StatelessWidget {
   static String id = "selected_belt_specific_information_page";
   final String? label;
-  const SelectedBeltSpecificInformationPage({super.key, this.label});
+  final List<String>? content;
+  const SelectedBeltSpecificInformationPage({super.key, this.label, this.content});
 
   @override
   Widget build(BuildContext context) {

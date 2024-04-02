@@ -6,7 +6,9 @@ import 'package:taekwondo_jovem/src/pages/selected_belt_specific_information_pag
 
 class ReusableButton extends StatelessWidget {
   final String label;
+  final Function()? onTap;
   const ReusableButton({
+    required this.onTap,
     required this.label,
     super.key,
   });
@@ -20,14 +22,7 @@ class ReusableButton extends StatelessWidget {
       elevation: 1.0,
       child: InkWell(
         borderRadius: BorderRadius.circular(30.0),
-        onTap: () {
-          Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) =>
-                    SelectedBeltSpecificInformationPage(label: label),
-              ));
-        },
+        onTap: onTap,
         child: Container(
           height: 57.0,
           decoration: BoxDecoration(

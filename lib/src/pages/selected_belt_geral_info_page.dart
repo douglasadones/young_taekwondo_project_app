@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
 import 'package:taekwondo_jovem/src/models/belt_model.dart';
+import 'package:taekwondo_jovem/src/pages/selected_belt_specific_information_page.dart';
 import 'package:taekwondo_jovem/src/utils/reusable_button.dart';
 import 'package:taekwondo_jovem/src/utils/capitalizing_string.dart';
 
@@ -92,8 +93,8 @@ class SelectedBeltGeralInfoPage extends StatelessWidget {
                     const BorderRadius.vertical(top: Radius.circular(30.0)),
                 color: Colors.grey.shade200,
               ),
-              child: const Padding(
-                padding: EdgeInsets.all(13.0),
+              child: Padding(
+                padding: const EdgeInsets.all(13.0),
                 child: Center(
                   child: SingleChildScrollView(
                     child: Column(
@@ -101,22 +102,68 @@ class SelectedBeltGeralInfoPage extends StatelessWidget {
                       children: [
                         ReusableButton(
                           label: "Socos",
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const SelectedBeltSpecificInformationPage(
+                                    label: "Socos",
+                                  ),
+                                ));
+                          },
                         ),
-                        SizedBox(height: 20.0),
+                        const SizedBox(height: 20.0),
                         ReusableButton(
                           label: "Chutes",
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const SelectedBeltSpecificInformationPage(
+                                          label: "Chutes"),
+                                ));
+                          },
                         ),
-                        SizedBox(height: 20.0),
+                        const SizedBox(height: 20.0),
                         ReusableButton(
                           label: "Bases",
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const SelectedBeltSpecificInformationPage(
+                                          label: "Bases"),
+                                ));
+                          },
                         ),
-                        SizedBox(height: 20.0),
+                        const SizedBox(height: 20.0),
                         ReusableButton(
                           label: "Defesas",
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const SelectedBeltSpecificInformationPage(
+                                          label: "Defesas"),
+                                ));
+                          },
                         ),
-                        SizedBox(height: 20.0),
+                        const SizedBox(height: 20.0),
                         ReusableButton(
                           label: "Movimentos de Faixa",
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const SelectedBeltSpecificInformationPage(
+                                          label: "Movimentos de Faixa"),
+                                ));
+                          },
                         ),
                       ],
                     ),

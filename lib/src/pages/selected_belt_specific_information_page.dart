@@ -7,8 +7,9 @@ import 'package:taekwondo_jovem/src/utils/capitalizing_string.dart';
 class SelectedBeltSpecificInformationPage extends StatelessWidget {
   static String id = "selected_belt_specific_information_page";
   final String? label;
-  final List<String>? content;
-  const SelectedBeltSpecificInformationPage({super.key, this.label, this.content});
+  final List<dynamic>? content;
+  const SelectedBeltSpecificInformationPage(
+      {super.key, this.label, this.content});
 
   @override
   Widget build(BuildContext context) {
@@ -70,15 +71,16 @@ class SelectedBeltSpecificInformationPage extends StatelessWidget {
                     const BorderRadius.vertical(top: Radius.circular(30.0)),
                 color: Colors.grey.shade200,
               ),
-              child: const Padding(
-                padding: EdgeInsets.all(13.0),
-                child: Center(
-                  child: SingleChildScrollView(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [],
-                    ),
-                  ),
+              child: Padding(
+                padding: const EdgeInsets.all(13.0),
+                child: ListView.builder(
+                  itemCount: content!.length,
+                  itemBuilder: (context, index) {
+                    // print();
+                    return ListTile(
+                      title: Text(content![index].toString()),
+                    );
+                  },
                 ),
               ),
             ),

@@ -95,78 +95,94 @@ class SelectedBeltGeralInfoPage extends StatelessWidget {
               ),
               child: Padding(
                 padding: const EdgeInsets.all(13.0),
-                child: Center(
-                  child: SingleChildScrollView(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [
-                        ReusableButton(
-                          label: "Socos",
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      const SelectedBeltSpecificInformationPage(
-                                    label: "Socos",
-                                  ),
-                                ));
-                          },
-                        ),
-                        const SizedBox(height: 20.0),
-                        ReusableButton(
-                          label: "Chutes",
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      const SelectedBeltSpecificInformationPage(
-                                          label: "Chutes"),
-                                ));
-                          },
-                        ),
-                        const SizedBox(height: 20.0),
-                        ReusableButton(
-                          label: "Bases",
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      const SelectedBeltSpecificInformationPage(
-                                          label: "Bases"),
-                                ));
-                          },
-                        ),
-                        const SizedBox(height: 20.0),
-                        ReusableButton(
-                          label: "Defesas",
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      const SelectedBeltSpecificInformationPage(
-                                          label: "Defesas"),
-                                ));
-                          },
-                        ),
-                        const SizedBox(height: 20.0),
-                        ReusableButton(
-                          label: "Movimentos de Faixa",
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      const SelectedBeltSpecificInformationPage(
-                                          label: "Movimentos de Faixa"),
-                                ));
-                          },
-                        ),
-                      ],
-                    ),
+                child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      ReusableButton(
+                        label: "Socos",
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    SelectedBeltSpecificInformationPage(
+                                  label: "Socos",
+                                  content: belt.beltContent.kumKiok,
+                                ),
+                              ));
+                        },
+                      ),
+                      const SizedBox(height: 20.0),
+                      ReusableButton(
+                        label: "Chutes",
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  SelectedBeltSpecificInformationPage(
+                                label: "Chutes",
+                                content: isStrip
+                                    ? belt.stripContent.tchaguiList
+                                    : belt.beltContent.tchaguiList,
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                      const SizedBox(height: 20.0),
+                      ReusableButton(
+                        label: "Bases",
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    SelectedBeltSpecificInformationPage(
+                                  label: "Bases",
+                                  content: isStrip
+                                      ? belt.stripContent.saguiList
+                                      : belt.beltContent.saguiList,
+                                ),
+                              ));
+                        },
+                      ),
+                      const SizedBox(height: 20.0),
+                      ReusableButton(
+                        label: "Bases",
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    SelectedBeltSpecificInformationPage(
+                                  label: "Bases",
+                                  content: isStrip
+                                      ? belt.stripContent.saguiList
+                                      : belt.beltContent.saguiList,
+                                ),
+                              ));
+                        },
+                      ),
+                      const SizedBox(height: 20.0),
+                      ReusableButton(
+                        label: "Movimentos de Faixa",
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    SelectedBeltSpecificInformationPage(
+                                  label: "Movimentos de Faixa",
+                                  content: isStrip
+                                      ? [belt.stripContent.form]
+                                      : [belt.beltContent.form],
+                                ),
+                              ));
+                        },
+                      ),
+                    ],
                   ),
                 ),
               ),

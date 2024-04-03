@@ -31,14 +31,14 @@ Map<String, dynamic> youngTaekwondoProjectData = {
       "Instrutor": "Jokyo-nim (2.º ao 1.º GUB)"
     },
     "dojangEtiquette": {
-      "etiquette": [
+      "Etiqueta": [
         "Mantenha a sua higiene pessoal em dia, assim como as unhas dos pés e das mãos sempre limpas e curtas",
         "Manter o dobok (uniforme) sempre limpo e bem passado",
         "Cabe aos alunos ajudarem na limpeza e na conservação do Dojang e de toda a academia, como se estivessem cuidado de suas próprias casas",
         "Não venha para aula se estiver doente, procure tratar-se antes",
         "Ao aluno iniciante devera ser dado um prazo para a aquisição do Dobok, e o aluno deve esforçar se para honrar este prazo"
       ],
-      "rules": [
+      "Regras": [
         "As conversas durante as aulas devem ser mínimas e restritas a um único tópico, Taekwondo",
         "Os celulares devem estar sempre desligados, com exceção apenas aos alunos que trabalham na área da saúde, militares ou que esteja necessariamente com algum problema pessoal, devendo todos comunicar antecipadamente ao Instrutor/Mestre",
         "Caso esteja esperando uma ligação urgente, deixe o telefone no vibra e comunique o mestre a respeito da situação",
@@ -63,18 +63,18 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "Só se deve usar Dobok dentro do Dojang. Se por acaso usarmos o Dobok na rua só deverá estar visível as calças do Dobok e nao se deve exibir a faixa",
         "Caso o mestre/instrutor não tenha chegado à hora do início do treino, será o aluno mais graduado a começar e orientar a aula até à chegada do mesmo"
       ],
-      "doubts": [
+      "Duvidas": [
         "Em caso de dúvidas consulte sempre o Instrutor/Mestre, somente consulte o aluno mais graduado caso o mestre autorize",
         "Caso o Mestre ou Instrutor não possa responder imediatamente ao questionamento, aguarde, pois o mais breve possível a duvida será sanada",
         "Sempre que questionar a respeito de uma técnica seja educado e cortes mostrando respeito",
         "Existe uma diferença entre questionar por duvida técnica e apontar defeitos de ineficiência da técnica, tome cuidado, demora-se uma vida para aprender Taekwondo, algumas técnicas envolvem questões que os olhos não podem ver"
       ],
-      "whenArriving": [
+      "Ao Chegar": [
         "Chegar com antecedência ao horário das aulas, evitando chegar atrasado",
         "Se chegar atrasado, reverencie a bandeira e o local de treino, posteriormente o Instrutor/Mestre, que lhe dirá o que fazer, nunca cumprimente os companheiros durante o horário de aula, para não provocar tumultos e prejudicar o andamento das aulas",
         "Se precisar sair antes do término da aula, comunique antecipadamente o Instrutor/Mestre para ter a sua permissão"
       ],
-      "security": [
+      "Segurança": [
         "O praticante de Taekwondo deve estar sempre atento durante as aulas, para evitar riscos de acidentes desnecessários",
         "Retire anéis, brincos, pulseiras, relógio, correntes e quaisquer outros objetos, que possam causar riscos de acidente, para você e para seus companheiros",
         "Fique sempre atento ao posicionamento dos colegas para evitar choques com os colegas de treino",

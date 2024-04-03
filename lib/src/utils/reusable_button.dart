@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
 import 'package:taekwondo_jovem/src/models/belt_model.dart';
-import 'package:taekwondo_jovem/src/pages/selected_belt_specific_information_page.dart';
 
 class ReusableButton extends StatelessWidget {
   final String label;

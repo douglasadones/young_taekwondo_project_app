@@ -25,7 +25,7 @@ class ReusableInfonCard extends StatelessWidget {
           Container(
             padding: const EdgeInsets.only(
               top: 10.0,
-              right: 20.0,
+              right: 10.0,
             ),
             decoration: BoxDecoration(
               color: Theme.of(context).colorScheme.primary.withOpacity(0.2),

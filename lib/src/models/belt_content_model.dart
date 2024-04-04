@@ -9,9 +9,9 @@ class BeltContent {
   final List<dynamic>? tchaguiList;
   final List<dynamic>? commandsList;
   final List<dynamic>? saguiList;
-  final Map<String, dynamic>? kibonDonjak;
-  final Map<String, dynamic>? sebonKiorugui;
-  final Map<String, dynamic>? balKiSull;
+  final List<dynamic>? kibonDonjak;
+  final List<dynamic>? sebonKiorugui;
+  final List<dynamic>? balKiSull;
 
   BeltContent({
     this.color,
@@ -48,16 +48,13 @@ class BeltContent {
           ? Map<String, dynamic>.from((map['meaning'] as Map<String, dynamic>))
           : null,
       kibonDonjak: map['Kibon Donjak'] != null
-          ? Map<String, dynamic>.from(
-              (map['Kibon Donjak'] as Map<String, dynamic>))
+          ? List<dynamic>.from((map['Kibon Donjak'] as List<dynamic>))
           : null,
       sebonKiorugui: map['Sebon Kiorugui'] != null
-          ? Map<String, dynamic>.from(
-              (map['Sebon Kiorugui'] as Map<String, dynamic>))
+          ? List<dynamic>.from((map['Sebon Kiorugui'] as List<dynamic>))
           : null,
       balKiSull: map['bal ki sull'] != null
-          ? Map<String, dynamic>.from(
-              (map['bal ki sull'] as Map<String, dynamic>))
+          ? List<dynamic>.from((map['bal ki sull'] as List<dynamic>))
           : null,
       form: map['form'].toString(),
       kumKiok: map['kum kiok'] != null

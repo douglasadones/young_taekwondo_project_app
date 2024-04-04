@@ -201,9 +201,9 @@ Map<String, dynamic> youngTaekwondoProjectData = {
           "Neryo tchagui",
           "Miryio tchagui"
         ],
-        "Kibon Donjak": {"": []},
-        "Sebon Kiorugui": {"": []},
-        "bal ki sull": {"": []},
+        "Kibon Donjak": [],
+        "Sebon Kiorugui": [],
+        "bal ki sull": [],
         "commands": []
       },
       "strip": {
@@ -255,9 +255,9 @@ Map<String, dynamic> youngTaekwondoProjectData = {
           "Timio Miryio Tchagui",
           "Furyo Tchagui"
         ],
-        "Kibon Donjak": {"": []},
-        "Sebon Kiorugui": {"": []},
-        "bal ki sull": {"": []},
+        "Kibon Donjak": [],
+        "Sebon Kiorugui": [],
+        "bal ki sull": [],
         "commands": []
       },
       "strip": {
@@ -284,9 +284,9 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "form": "Tae Guk Sam Jang",
         "sagui": [],
         "tchagui": [],
-        "Kibon Donjak": {"": []},
-        "Sebon Kiorugui": {"": []},
-        "bal ki sull": {"": []},
+        "Kibon Donjak": [],
+        "Sebon Kiorugui": [],
+        "bal ki sull": [],
         "commands": []
       },
       "strip": {
@@ -313,9 +313,9 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "sagui": [],
         "tchagui": [],
         "form": "Tae Guk Oh Jang",
-        "Kibon Donjak": {"": []},
-        "Sebon Kiorugui": {"": []},
-        "bal ki sull": {"": []},
+        "Kibon Donjak": [],
+        "Sebon Kiorugui": [],
+        "bal ki sull": [],
         "commands": []
       },
       "strip": {
@@ -342,9 +342,9 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "sagui": [],
         "tchagui": [],
         "form": "Tae Guk Chil Jang",
-        "Kibon Donjak": {"": []},
-        "Sebon Kiorugui": {"": []},
-        "bal ki sull": {"": []},
+        "Kibon Donjak": [],
+        "Sebon Kiorugui": [],
+        "bal ki sull": [],
         "commands": []
       },
       "strip": {
@@ -368,9 +368,9 @@ Map<String, dynamic> youngTaekwondoProjectData = {
         "form": "",
         "sagui": [],
         "tchagui": [],
-        "Kibon Donjak": {"": []},
-        "Sebon Kiorugui": {"": []},
-        "bal ki sull": {"": []},
+        "Kibon Donjak": [],
+        "Sebon Kiorugui": [],
+        "bal ki sull": [],
         "commands": []
       },
       "strip": {

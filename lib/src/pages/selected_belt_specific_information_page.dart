@@ -7,7 +7,7 @@ import 'package:taekwondo_jovem/src/utils/capitalizing_string.dart';
 class SelectedBeltSpecificInformationPage extends StatelessWidget {
   static String id = "selected_belt_specific_information_page";
   final String? label;
-  final List<dynamic>? content;
+  final dynamic content;
   const SelectedBeltSpecificInformationPage(
       {super.key, this.label, this.content});
 
@@ -19,9 +19,13 @@ class SelectedBeltSpecificInformationPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: belt.beltColor,
         title: Text(
-          "Faixa ${belt.beltContent.color.toString().capitalize()} ${(isStrip!) ? 'Ponteira' : ''}",
+          "Faixa ${belt.beltContent.color.toString().capitalize()} ${(isStrip) ? 'Ponteira' : ''}",
           textAlign: TextAlign.center,
-          style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              color:
+                  belt.beltColor == Colors.black ? Colors.white : Colors.black),
         ),
       ),
       body: Column(

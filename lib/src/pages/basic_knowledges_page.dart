@@ -51,14 +51,30 @@ class BasicKnowledgesPage extends StatelessWidget {
                     MaterialPageRoute(
                       builder: (context) => SpecificKnowledgePage(
                         appBarLabel: 'Princípios',
-                        content: data.principles,
+                        content: data.principles.keys.toList(),
                       ),
                     ),
                   );
                 },
               ),
-              const KnowledgesButton(
+              KnowledgesButton(
                 label: 'Juramentos',
+                onTap: () {
+                  KnowledgesButton(
+                    label: 'Juramentos',
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => SpecificKnowledgePage(
+                            appBarLabel: 'Juramentos',
+                            content: data.oaths[0],
+                          ),
+                        ),
+                      );
+                    },
+                  );
+                },
               ),
               const KnowledgesButton(
                 label: 'Tratamentos',

@@ -82,7 +82,10 @@ class SelectedBeltSpecificInformationPage extends StatelessWidget {
                   itemBuilder: (context, index) {
                     // print();
                     return ListTile(
-                      title: Text(content![index].toString()),
+                      title: Text(
+                        content![index].toString(),
+                        style: const TextStyle(fontSize: 17.0),
+                      ),
                     );
                   },
                 ),

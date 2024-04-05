@@ -15,7 +15,7 @@ Map<String, dynamic> youngTaekwondoProjectData = {
       "Integridade": "Senso de justiça e responsabilidade",
       "Perseverança": "Força de vontade. É NÃO DESISTIR DE UM OBJETIVO",
       "Auto Controle": "Disciplina aliada à paciência",
-      "Espirito Indomável": "coragem e decisão em todas as circunstâncias"
+      "Espirito Indomável": "Coragem e decisão em todas as circunstâncias"
     },
     "oaths": [
       "Observar as regras do tae kwon-do",
@@ -32,54 +32,54 @@ Map<String, dynamic> youngTaekwondoProjectData = {
     },
     "dojangEtiquette": {
       "Etiqueta": [
-        "Mantenha a sua higiene pessoal em dia, assim como as unhas dos pés e das mãos sempre limpas e curtas",
-        "Manter o dobok (uniforme) sempre limpo e bem passado",
-        "Cabe aos alunos ajudarem na limpeza e na conservação do Dojang e de toda a academia, como se estivessem cuidado de suas próprias casas",
-        "Não venha para aula se estiver doente, procure tratar-se antes",
-        "Ao aluno iniciante devera ser dado um prazo para a aquisição do Dobok, e o aluno deve esforçar se para honrar este prazo"
+        "Mantenha a sua higiene pessoal em dia, assim como as unhas dos pés e das mãos sempre limpas e curtas;",
+        "Manter o dobok (uniforme) sempre limpo e bem passado;",
+        "Cabe aos alunos ajudarem na limpeza e na conservação do Dojang e de toda a academia, como se estivessem cuidado de suas próprias casas;",
+        "Não venha para aula se estiver doente, procure tratar-se antes;",
+        "Ao aluno iniciante devera ser dado um prazo para a aquisição do Dobok, e o aluno deve esforçar se para honrar este prazo."
       ],
       "Regras": [
-        "As conversas durante as aulas devem ser mínimas e restritas a um único tópico, Taekwondo",
-        "Os celulares devem estar sempre desligados, com exceção apenas aos alunos que trabalham na área da saúde, militares ou que esteja necessariamente com algum problema pessoal, devendo todos comunicar antecipadamente ao Instrutor/Mestre",
-        "Caso esteja esperando uma ligação urgente, deixe o telefone no vibra e comunique o mestre a respeito da situação",
-        "Saudar a bandeira e o local de treino sempre ao início e ao término das aulas",
-        "O aluno de Taekwondo deve se comportar da mesma forma dentro e fora do Dojang",
-        "Ao chegar à academia reverencie primeiramente os Mestres, e posteriormente os demais Professores, Instrutores e companheiros de treino, procurando sempre respeitar a hierarquia",
-        "Sempre respeite os ensinamentos originados pelo Mestre exatamente como foram transmitidos, sem questionar sobre suas formas e aplicações",
-        "O respeito pela forma com que o Instrutor/Mestre dirige suas aulas, é de suma importância ao aprendizado do praticante, não cabendo em nenhuma situação momentos de contestações",
-        "Nunca utilize gestos obscenos ou palavras de baixo calão (palavrões), na academia",
-        "Não trazer alimentos para consumir durante as aulas, principalmente balas, chicletes e salgadinhos",
-        "No início e término de cada aula de Taekwondo, deve ser feita reverencia. Formal ao Instrutor/Mestre, como forma de agradecimento aos Ensinamentos que lhe serão transmitidos. Sempre lembrando que os Calcanhares devem sempre estar juntos, e os olhos voltados para baixo Sempre que reverenciar Instrutor/Mestre, bem como a bandeira",
-        "Proibido o uso de cigarros, bebidas alcoólicas, ou qualquer outra droga ou vícios nas dependências da academia; (esporte é saúde, uso de drogas é aversão a filosofia do esporte.)",
-        "Não danifique os aparelhos de treino, os quais você mesmo vai utilizar",
-        "Não use drogas, bebidas alcoólicas, ou qualquer substância do gênero, antes, durante e após o treino",
+        "As conversas durante as aulas devem ser mínimas e restritas a um único tópico, Taekwondo;",
+        "Os celulares devem estar sempre desligados, com exceção apenas aos alunos que trabalham na área da saúde, militares ou que esteja necessariamente com algum problema pessoal, devendo todos comunicar antecipadamente ao Instrutor/Mestre;",
+        "Caso esteja esperando uma ligação urgente, deixe o telefone no vibra e comunique o mestre a respeito da situação;",
+        "Saudar a bandeira e o local de treino sempre ao início e ao término das aulas;",
+        "O aluno de Taekwondo deve se comportar da mesma forma dentro e fora do Dojang;",
+        "Ao chegar à academia reverencie primeiramente os Mestres, e posteriormente os demais Professores, Instrutores e companheiros de treino, procurando sempre respeitar a hierarquia;",
+        "Sempre respeite os ensinamentos originados pelo Mestre exatamente como foram transmitidos, sem questionar sobre suas formas e aplicações;",
+        "O respeito pela forma com que o Instrutor/Mestre dirige suas aulas, é de suma importância ao aprendizado do praticante, não cabendo em nenhuma situação momentos de contestações;",
+        "Nunca utilize gestos obscenos ou palavras de baixo calão (palavrões), na academia;",
+        "Não trazer alimentos para consumir durante as aulas, principalmente balas, chicletes e salgadinhos;",
+        "No início e término de cada aula de Taekwondo, deve ser feita reverencia. Formal ao Instrutor/Mestre, como forma de agradecimento aos Ensinamentos que lhe serão transmitidos. Sempre lembrando que os Calcanhares devem sempre estar juntos, e os olhos voltados para baixo Sempre que reverenciar Instrutor/Mestre, bem como a bandeira;",
+        "Proibido o uso de cigarros, bebidas alcoólicas, ou qualquer outra droga ou vícios nas dependências da academia; (esporte é saúde, uso de drogas é aversão a filosofia do esporte.);",
+        "Não danifique os aparelhos de treino, os quais você mesmo vai utilizar;",
+        "Não use drogas, bebidas alcoólicas, ou qualquer substância do gênero, antes, durante e após o treino;",
         "Troque de roupa somente no vestiário;",
         "Não fique com brincadeiras durante o período de aulas;",
         "Nunca exija ou peça ao Instrutor/Mestre que ele passe novas técnicas. Tenha paciência, pois ele sabe exatamente o momento certo para passá-las a você;",
-        "Não use as técnicas do Taekwondo para prejudicar outras pessoas, ou como uma maneira de aumentar o seu ego pessoal",
+        "Não use as técnicas do Taekwondo para prejudicar outras pessoas, ou como uma maneira de aumentar o seu ego pessoal;",
         "Evite argumentar um erro ou deficiência técnica. Se o Instrutor/Mestre o corrigir, seja humilde e aceite a critica em silêncio. Ele está no Dojang para ajudá-lo;",
-        "Não falte com respeito para com seus Instrutor/Mestre, companheiros de treino e para com o Taekwondo",
-        "Respeite os outros e a si mesmo, para poder ser respeitado",
-        "Só se deve usar Dobok dentro do Dojang. Se por acaso usarmos o Dobok na rua só deverá estar visível as calças do Dobok e nao se deve exibir a faixa",
-        "Caso o mestre/instrutor não tenha chegado à hora do início do treino, será o aluno mais graduado a começar e orientar a aula até à chegada do mesmo"
+        "Não falte com respeito para com seus Instrutor/Mestre, companheiros de treino e para com o Taekwondo;",
+        "Respeite os outros e a si mesmo, para poder ser respeitado;",
+        "Só se deve usar Dobok dentro do Dojang. Se por acaso usarmos o Dobok na rua só deverá estar visível as calças do Dobok e nao se deve exibir a faixa;",
+        "Caso o mestre/instrutor não tenha chegado à hora do início do treino, será o aluno mais graduado a começar e orientar a aula até à chegada do mesmo."
       ],
       "Duvidas": [
-        "Em caso de dúvidas consulte sempre o Instrutor/Mestre, somente consulte o aluno mais graduado caso o mestre autorize",
-        "Caso o Mestre ou Instrutor não possa responder imediatamente ao questionamento, aguarde, pois o mais breve possível a duvida será sanada",
-        "Sempre que questionar a respeito de uma técnica seja educado e cortes mostrando respeito",
-        "Existe uma diferença entre questionar por duvida técnica e apontar defeitos de ineficiência da técnica, tome cuidado, demora-se uma vida para aprender Taekwondo, algumas técnicas envolvem questões que os olhos não podem ver"
+        "Em caso de dúvidas consulte sempre o Instrutor/Mestre, somente consulte o aluno mais graduado caso o mestre autorize;",
+        "Caso o Mestre ou Instrutor não possa responder imediatamente ao questionamento, aguarde, pois o mais breve possível a duvida será sanada;",
+        "Sempre que questionar a respeito de uma técnica seja educado e cortes mostrando respeito;",
+        "Existe uma diferença entre questionar por duvida técnica e apontar defeitos de ineficiência da técnica, tome cuidado, demora-se uma vida para aprender Taekwondo, algumas técnicas envolvem questões que os olhos não podem ver."
       ],
       "Ao Chegar": [
-        "Chegar com antecedência ao horário das aulas, evitando chegar atrasado",
-        "Se chegar atrasado, reverencie a bandeira e o local de treino, posteriormente o Instrutor/Mestre, que lhe dirá o que fazer, nunca cumprimente os companheiros durante o horário de aula, para não provocar tumultos e prejudicar o andamento das aulas",
-        "Se precisar sair antes do término da aula, comunique antecipadamente o Instrutor/Mestre para ter a sua permissão"
+        "Chegar com antecedência ao horário das aulas, evitando chegar atrasado;",
+        "Se chegar atrasado, reverencie a bandeira e o local de treino, posteriormente o Instrutor/Mestre, que lhe dirá o que fazer, nunca cumprimente os companheiros durante o horário de aula, para não provocar tumultos e prejudicar o andamento das aulas;",
+        "Se precisar sair antes do término da aula, comunique antecipadamente o Instrutor/Mestre para ter a sua permissão."
       ],
       "Segurança": [
-        "O praticante de Taekwondo deve estar sempre atento durante as aulas, para evitar riscos de acidentes desnecessários",
-        "Retire anéis, brincos, pulseiras, relógio, correntes e quaisquer outros objetos, que possam causar riscos de acidente, para você e para seus companheiros",
-        "Fique sempre atento ao posicionamento dos colegas para evitar choques com os colegas de treino",
-        "Siga as orientações do Mestre, elas são para a sua segurança",
-        "É dever do praticante de Taekwon-do arrumar todo o material colocado à sua disposição pelo mestre/instrutor durante o decorrer do treino ou que esteja à sua responsabilidade"
+        "O praticante de Taekwondo deve estar sempre atento durante as aulas, para evitar riscos de acidentes desnecessários;",
+        "Retire anéis, brincos, pulseiras, relógio, correntes e quaisquer outros objetos, que possam causar riscos de acidente, para você e para seus companheiros;",
+        "Fique sempre atento ao posicionamento dos colegas para evitar choques com os colegas de treino;",
+        "Siga as orientações do Mestre, elas são para a sua segurança;",
+        "É dever do praticante de Taekwon-do arrumar todo o material colocado à sua disposição pelo mestre/instrutor durante o decorrer do treino ou que esteja à sua responsabilidade."
       ]
     },
     "commands": [

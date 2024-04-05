@@ -23,7 +23,7 @@ class SpecificKnowledgePage extends StatelessWidget {
           height: double.infinity,
           decoration: kContainerBackgroundDecoration,
           child: Padding(
-            padding: const EdgeInsets.all(2.0),
+            padding: const EdgeInsets.all(12.0),
             child: SingleChildScrollView(
               child: Column(children: content!),
             ),

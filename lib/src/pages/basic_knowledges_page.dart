@@ -5,6 +5,7 @@ import 'package:taekwondo_jovem/src/controller/providers/data_provider.dart';
 import 'package:taekwondo_jovem/src/models/basic_knowledges_model.dart';
 import 'package:taekwondo_jovem/src/pages/specific_knowledge_page.dart';
 import 'package:taekwondo_jovem/src/utils/knowledges_button.dart';
+import 'package:taekwondo_jovem/src/utils/my_utils.dart';
 
 class BasicKnowledgesPage extends StatelessWidget {
   static String id = 'basic_knowledges';
@@ -37,11 +38,7 @@ class BasicKnowledgesPage extends StatelessWidget {
                     MaterialPageRoute(
                       builder: (context) => SpecificKnowledgePage(
                         appBarLabel: 'História do Taekwondo',
-                        content: [
-                          Text(
-                            data.history,
-                          )
-                        ],
+                        content: MyUtils.widgetList(data.history),
                       ),
                     ),
                   );
@@ -50,19 +47,12 @@ class BasicKnowledgesPage extends StatelessWidget {
               KnowledgesButton(
                 label: 'Princípios',
                 onTap: () {
-                  List<Widget> widgetList = [];
-                  data.principles.forEach((key, value) {
-                    widgetList.add(ListTile(
-                      title: Text(key),
-                      subtitle: Text(value),
-                    ));
-                  });
                   Navigator.push(
                     context,
                     MaterialPageRoute(
                       builder: (context) => SpecificKnowledgePage(
                         appBarLabel: 'Princípios',
-                        content: widgetList,
+                        content: MyUtils.widgetList(data.principles),
                       ),
                     ),
                   );
@@ -71,39 +61,127 @@ class BasicKnowledgesPage extends StatelessWidget {
               KnowledgesButton(
                 label: 'Juramentos',
                 onTap: () {
-                  KnowledgesButton(
-                    label: 'Juramentos',
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SpecificKnowledgePage(
-                            appBarLabel: 'Juramentos',
-                            content: data.oaths[0],
-                          ),
-                        ),
-                      );
-                    },
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SpecificKnowledgePage(
+                        appBarLabel: 'Juramentos',
+                        content: MyUtils.widgetList(data.oaths),
+                      ),
+                    ),
                   );
                 },
               ),
-              const KnowledgesButton(
+              KnowledgesButton(
                 label: 'Tratamentos',
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SpecificKnowledgePage(
+                        appBarLabel: 'Tratamentos',
+                        content: MyUtils.widgetList(data.tratments),
+                      ),
+                    ),
+                  );
+                },
               ),
-              const KnowledgesButton(
+              KnowledgesButton(
                 label: 'Etiqueta No Dojang',
+                onTap: () {
+                  List<Widget> expansionTileList = [];
+                  data.dojangEtiquette.forEach((key, value) {
+                    List<Widget> currentBodyList = [];
+                    for (String i in value) {
+                      currentBodyList.add(
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            '\u25cf $i',
+                            textAlign: TextAlign.justify,
+                            style: const TextStyle(
+                              fontSize: 17.0,
+                              height: 1.7,
+                            ),
+                          ),
+                        ),
+                      );
+                    }
+                    expansionTileList.add(
+                      ExpansionTile(
+                        title: Text(key,
+                            style:
+                                const TextStyle(fontSize: 19.0, height: 1.9)),
+                        children: currentBodyList,
+                      ),
+                    );
+                  });
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SpecificKnowledgePage(
+                        appBarLabel: 'Etiqueta No Dojang',
+                        content: expansionTileList,
+                      ),
+                    ),
+                  );
+                },
               ),
-              const KnowledgesButton(
+              KnowledgesButton(
                 label: 'Comandos Básicos',
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SpecificKnowledgePage(
+                        appBarLabel: 'Comandos Básicos',
+                        content: MyUtils.widgetList(data.commands),
+                      ),
+                    ),
+                  );
+                },
               ),
-              const KnowledgesButton(
+              KnowledgesButton(
                 label: 'Contagem',
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SpecificKnowledgePage(
+                        appBarLabel: 'Comandos Básicos',
+                        content: MyUtils.widgetList(data.numbers),
+                      ),
+                    ),
+                  );
+                },
               ),
-              const KnowledgesButton(
+              KnowledgesButton(
                 label: 'Partes do Corpo',
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SpecificKnowledgePage(
+                        appBarLabel: 'Partes do Corpo',
+                        content: MyUtils.widgetList(data.bodyParts),
+                      ),
+                    ),
+                  );
+                },
               ),
-              const KnowledgesButton(
+              KnowledgesButton(
                 label: 'Definições',
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SpecificKnowledgePage(
+                        appBarLabel: 'Definições',
+                        content: MyUtils.widgetList(data.definitions),
+                      ),
+                    ),
+                  );
+                },
               ),
             ],
           ),
@@ -112,3 +190,28 @@ class BasicKnowledgesPage extends StatelessWidget {
     );
   }
 }
+
+// List<Widget>? widgetList(dynamic content) {
+//   List<Widget> widgetList = [];
+//   if (content is List) {
+//     for (var value in content) {
+//       widgetList.add(
+//         ListTile(
+//           title: Text(value),
+//         ),
+//       );
+//     }
+//   } else {
+//     content.forEach(
+//       (key, value) {
+//         widgetList.add(
+//           ListTile(
+//             title: Text(key),
+//             subtitle: Text(value),
+//           ),
+//         );
+//       },
+//     );
+//   }
+//   return widgetList;
+// }

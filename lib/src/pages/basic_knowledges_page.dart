@@ -37,7 +37,11 @@ class BasicKnowledgesPage extends StatelessWidget {
                     MaterialPageRoute(
                       builder: (context) => SpecificKnowledgePage(
                         appBarLabel: 'História do Taekwondo',
-                        content: [data.history],
+                        content: [
+                          Text(
+                            data.history,
+                          )
+                        ],
                       ),
                     ),
                   );
@@ -46,12 +50,19 @@ class BasicKnowledgesPage extends StatelessWidget {
               KnowledgesButton(
                 label: 'Princípios',
                 onTap: () {
+                  List<Widget> widgetList = [];
+                  data.principles.forEach((key, value) {
+                    widgetList.add(ListTile(
+                      title: Text(key),
+                      subtitle: Text(value),
+                    ));
+                  });
                   Navigator.push(
                     context,
                     MaterialPageRoute(
                       builder: (context) => SpecificKnowledgePage(
                         appBarLabel: 'Princípios',
-                        content: data.principles.keys.toList(),
+                        content: widgetList,
                       ),
                     ),
                   );

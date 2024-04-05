@@ -4,7 +4,7 @@ import 'package:taekwondo_jovem/src/consts.dart';
 class SpecificKnowledgePage extends StatelessWidget {
   static String id = 'Specific_knowledge_page';
   final String? appBarLabel;
-  final List<dynamic>? content;
+  final List<Widget>? content;
   const SpecificKnowledgePage({
     super.key,
     this.content,
@@ -20,20 +20,12 @@ class SpecificKnowledgePage extends StatelessWidget {
           ),
         ),
         body: Container(
+          height: double.infinity,
           decoration: kContainerBackgroundDecoration,
           child: Padding(
             padding: const EdgeInsets.all(2.0),
-            child: ListView.builder(
-              itemCount: content!.length,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  title: Text(
-                    content![index],
-                    textAlign: TextAlign.justify,
-                    style: const TextStyle(fontSize: 20.0),
-                  ),
-                );
-              },
+            child: SingleChildScrollView(
+              child: Column(children: content!),
             ),
           ),
         ));

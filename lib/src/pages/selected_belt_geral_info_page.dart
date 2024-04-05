@@ -23,7 +23,11 @@ class SelectedBeltGeralInfoPage extends StatelessWidget {
         title: Text(
           "Faixa ${belt.beltContent.color.toString().capitalize()} ${(isStrip) ? 'Ponteira' : ''}",
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: belt.beltColor == Colors.black ? Colors.white : Colors.black),
+          style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              color:
+                  belt.beltColor == Colors.black ? Colors.white : Colors.black),
         ),
       ),
       body: Column(
@@ -106,14 +110,15 @@ class SelectedBeltGeralInfoPage extends StatelessWidget {
                               label: "Socos",
                               onTap: () {
                                 Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          SelectedBeltSpecificInformationPage(
-                                        label: "Socos",
-                                        content: currentContent.kumKiok,
-                                      ),
-                                    ));
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        SelectedBeltSpecificInformationPage(
+                                      label: "Socos",
+                                      content: currentContent.kumKiok,
+                                    ),
+                                  ),
+                                );
                               },
                             )
                           : const SizedBox(),
